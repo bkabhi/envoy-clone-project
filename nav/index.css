@@ -1,0 +1,57 @@
+#home-navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid crimson;
+    align-items: center;
+}
+
+#home-navbar-icon{
+    width:100px;
+}
+#home-navbar-div2 {
+    display: flex;
+    border: 1px solid black;
+    width: 63%;
+}
+
+#home-navbar-div1 {
+    border: 1px solid black;
+    padding: 10px 8px;
+}
+#home-navbar-div2 > div{
+    margin-left:35px;
+    margin-top: 22px;
+    margin-bottom: 16px;
+}
+
+#home-navbar-div2 :nth-child(1){
+    margin-left:10px;
+}
+
+#home-navbar-div2 > #navbar-hiring{
+    /* border: 1px solid teal; */
+    background-color: teal;
+    width: 130px;
+    align-self: center;
+}
+
+#home-navbar-div2 > div{
+    margin-left:35px;
+    /* font-size: 20px; */
+}
+
+.navbar-anchor{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+#navbar-login{
+    font-weight: bolder;
+}
+
+#home-navbar-div2 > #navbar-get-started{
+    border: 1px solid crimson;
+    padding :  10px 15px;
+    margin-top: 7px;
+}
