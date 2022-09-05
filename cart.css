@@ -1,0 +1,140 @@
+*{
+    font-family: sans-serif;
+}
+#shopify-section-header {
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    justify-content: space-between;
+
+}
+#shopify-section-header > #logo > img {
+    width: 120px;
+    padding: 5px;
+}
+#logo {
+    display:flex;
+    width: 10%;
+    justify-content: space-between;
+    height:50px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: 2px solid #E9EAF2;
+    padding-right: 0;
+   
+    
+    /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
+}
+
+#logo > a {
+    margin-left: 50px;
+    margin-top: 12px;
+}
+
+a {
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+a:hover {
+    color: red;
+}
+#cart {
+    padding: 15px;
+    /* margin-left: 1500px; */
+}
+
+#site-wrapper {
+    
+    /* border: 1px solid teal; */
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    margin-top: 150px;
+}
+
+#bar { 
+    /* border-radius: 1px solid black; */
+    height: 200px;
+    width: 30%;
+    margin-left: -15px;
+    
+}  
+
+#bar > ul > h4 {
+    color: black;
+    font-size: x-large;
+    font-weight:0;
+} 
+#bar > ul > a{ 
+    color: #938391;
+    font-size: medium;
+}
+
+#bar > ul > a:hover{
+    color: red;
+}
+
+#contentBox {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    /* /* border: 1px solid red; */
+    height: 900px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+   
+   
+}
+#productBox {
+    margin: 15px;
+    /* border: 1px solid teal; */
+    height:500px;
+}
+#infoBox {
+    margin: 15px;
+    /* border: 1px solid black; */
+    height:500px;
+}
+input {
+    padding: 15px;
+    width: 70px;
+    border: #938391;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    font-size: 15px;
+}
+#img {
+    width:  550px;
+}
+h1 {
+    font-size: 40px;
+    color: #3F4450;
+}
+p {
+    color: #626467;
+    font-size: 20px;
+}
+h3 {
+    color: #3F4450;
+    font-size: 25px;
+}
+#addBtn {
+     padding: 20px;
+     
+     background-color: #fe4c43;
+     color: white;
+     border-radius: 5px;
+     border: none;
+     font-size: 15px;
+     margin-left: 20px;
+}
+#addBtn:hover {
+     background-color:#E23C32;
+}
