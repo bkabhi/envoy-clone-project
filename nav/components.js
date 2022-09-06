@@ -42,7 +42,7 @@ function navbar(){
     </div>
     <div id="navbar-solutions" class="drop-hower-div">
         <a href="#" class="navbar-anchor">Solutions</a>
-        
+
         <div class="drop-down-div-content">
                 <a href="">
                     <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
@@ -76,12 +76,72 @@ function navbar(){
     </div>
     <div id="navbar-resources" class="drop-hower-div">
         <a href="#" class="navbar-anchor">Resources</a>
+        <div class="drop-down-div-content">
+                <a href="">
+                    <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
+                    <div class="drop--content-text">
+                        <div>Visitors</div>
+                        <div>Visitor management solutions for any front desk</div>
+                    </div>
+                </a>
+                <a href="">
+                    <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
+                    <div class="drop--content-text">
+                        <div>Protect</div>
+                        <div>Visitor management solutions for any front desk</div>
+                    </div>
+                </a>
+                <a href="">
+                    <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
+                    <div class="drop--content-text">
+                        <div>Visitors</div>
+                        <div>Visitor management solutions for any front desk</div>
+                    </div>
+                </a>
+                <a href="">
+                    <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
+                    <div class="drop--content-text">
+                        <div>Visitors</div>
+                        <div>Visitor management solutions for any front desk</div>
+                    </div>
+                </a>
+            </div>
     </div>
     <div id="navbar-demo" class="drop-hower-div">
         <a href="#" class="navbar-anchor">Demo</a>
     </div>
     <div id="navbar-pricing" class="drop-hower-div">
         <a href="#" class="navbar-anchor">Pricing</a>
+        <div class="drop-down-div-content">
+                <a href="">
+                    <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
+                    <div class="drop--content-text">
+                        <div>Visitors</div>
+                        <div>Visitor management solutions for any front desk</div>
+                    </div>
+                </a>
+                <a href="">
+                    <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
+                    <div class="drop--content-text">
+                        <div>Protect</div>
+                        <div>Visitor management solutions for any front desk</div>
+                    </div>
+                </a>
+                <a href="">
+                    <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
+                    <div class="drop--content-text">
+                        <div>Visitors</div>
+                        <div>Visitor management solutions for any front desk</div>
+                    </div>
+                </a>
+                <a href="">
+                    <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
+                    <div class="drop--content-text">
+                        <div>Visitors</div>
+                        <div>Visitor management solutions for any front desk</div>
+                    </div>
+                </a>
+            </div>
     </div>
     <div id="navbar-login" class="drop-hower-div">
         <a href="#" class="navbar-anchor">Log In</a>

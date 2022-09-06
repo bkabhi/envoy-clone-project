@@ -53,7 +53,7 @@ body{
     font-weight: bolder;
 }
 
- #navbar-get-started > a{
+#navbar-get-started > a{
     color: white;
     background-color:#FF4949;
     padding :  10px 18px;
@@ -129,6 +129,7 @@ body{
 
 
 
+
 /* hover bala yha se hai */
 
 .drop-hower-div{
@@ -140,11 +141,13 @@ body{
     display: none;
     position: absolute;
     z-index: 10;
-    width: 300px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 400px;
+    box-shadow: rgba(99, 99, 99, 1) 0px 2px 8px 0px;
+    background-color: #fff;
     padding: 15px;
     border-radius: 10px;
     /* margin-top: 15px; */
+    margin-left: -150px;
 }
 
 .drop-hower-div:hover .drop-down-div-content{
@@ -167,6 +170,10 @@ body{
     font-weight: 900;
     
 }
+
+
+
+
 
 
 
