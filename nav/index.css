@@ -19,14 +19,9 @@
 }
 #home-navbar-div2  div{
     margin-left:35px;
-    margin-top: 22px;
     margin-bottom: 16px;
 }
 
-/* #home-navbar-div2 :nth-child(1){
-    margin-left:10px;
-    text-align: center;
-} */
 
 #home-navbar-div2 > #navbar-hiring{
     background-color: rgb(240, 239, 239);
@@ -70,20 +65,21 @@
 
 #home-page-top{
     width: 100%;
-    height: 1000px;
-    background-image: url("https://envoy.com/images/products/desks/desks-hero.svg");
+    height: 750px;
+    background-image: url("https://envoy.com/images/home/homepage-hero-m.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid crimson;
 }
 
 #home-page-top-inner{
-    width: 30%;
-    margin-left: 400px;
+    width: 35%;
+    margin-left: 430px;
+    margin-top: 45px;
+}
+
+#home-page-top-form{
     background-color: white;
-    margin-top: 95px;
-    padding: 10px 30px 30px 30px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px 50px 10px 50px;
 }
 
 #home-page-top-form-description{
@@ -93,7 +89,7 @@
 }
 
 #home-page-top-form-title{
-    font-size: 38px;
+    font-size: 45px;
 }
 
 #home-page-form-input{
@@ -106,6 +102,7 @@
     width: 200px;
     border: none;
     border: 2px solid grey;
+     border-radius: 8px;
 }
 
 #home-page-form-get-start{
@@ -118,4 +115,50 @@
     border-radius: 4px;
     font-size: 17px;
     margin-left: 20px;
+}
+
+#home-page-top-form-para{
+    text-align: center;
+    color:grey;
+}
+
+#home-page-top-form-span > a{
+    color: crimson;
+    text-decoration: none;
+}
+
+#home-page-section-second{
+    background-color:  #b5e0ec;
+    height: 420px;
+}
+
+#home-page-second{
+    display: flex;
+    justify-content: space-between;
+}
+
+#home-second-inner-desc{
+    height: 100%;
+    border: 1px solid crimson;
+}
+
+#home-second-inner-form{
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+#home-page-second-inner-img{
+    width: 100%;
+    height: 420px;
+    margin-left: -450px;
+    padding-left: 0px;
+    border: 1px solid black;
+    background-image: url("/envoy-clone-project/banner-image-xl.png");
+    background-size: cover;
+}
+
+#home-second-inner-form{
+    font-size: 40px;
 }
