@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Envoy Shop</title>
+    <title>CART</title>
 </head>
-<link rel="stylesheet" href="./cart.css">
+<link rel="stylesheet" href="checkOut.css">
 <body>
-      <!--HEADER SECTION-->
-      <div id="shopify-section-header">
+     <!--HEADER SECTION-->
+     <div id="shopify-section-header">
         <div id = "logo">
             <img src="https://envoy.com/images/logo-new.svg" alt="envoylogo">
         
@@ -18,7 +18,6 @@
         </div>
         <div id = "cart">
             <a href="checkOut.html">Cart</a>
-            <p id = "allItem">0</p>
         </div>
         </div>
 
@@ -36,12 +35,27 @@
                 <ul><a href="">Envoy in a box</a></ul>
             
         </div>
-        <div id = "contentBox">
-        <!--APPEND PRODUCTBOX AND INFOBOX HERE--> 
+        <div id = "cartProducts">
+            <table id = "table">
+                <thead>
+                    <tr>
+                      <th>Product</th>
+                      <th>Price</th>
+                      <th>Quantity</th>
+                      <th>Total</th>
+                    </tr>
+                </thead>
+                   <tbody id = "tbody">
+                     <!-- Update the rows here using jsvascript -->
+                    </tbody>
+                </table>
+            <div>
+                <p>TOTAL PRICE</p>
+                <p id = "totalPrice"></p>
+            </div>
 
         </div>
-    
-    
+        
 </body>
 </html>
-<script src="./cart.js"></script>
+<script src="checkOut.js"></script>

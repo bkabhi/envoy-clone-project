@@ -14,29 +14,32 @@
 #shopify-section-header > #logo > img {
     width: 120px;
     padding: 5px;
+    
 }
 #logo {
     display:flex;
-    width: 10%;
+    width: 8%;
     justify-content: space-between;
-    height:50px;
+    height:40px;
     border-top: none;
     border-bottom: none;
     border-left: none;
-    border-right: 2px solid #E9EAF2;
-    padding-right: 0;
+    border-right: 3px solid #E9EAF2;
+    padding-right: 40px;
+  
    
     
     /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
 }
 
 #logo > a {
-    margin-left: 50px;
+    margin-left: 60px;
     margin-top: 12px;
+    
 }
 
 a {
-    font-size: x-large;
+    font-size: large;
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -56,6 +59,7 @@ a:hover {
     margin: auto;
     height: 400px;
     display: flex;
+    justify-content: space-between;
     margin-top: 150px;
 }
 
@@ -81,35 +85,37 @@ a:hover {
     color: red;
 }
 #heading {
-    font-size: x-large;
+    font-size: large;
     color: #3F4450
 }
 #para {
-    font-size: 23px;
+    font-size: 20px;
     color: #938391;
     line-height: 2;
 }
 #products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    margin-top: 45px;
+    gap: 15px;
+    margin-top: 40px;
+    
 }
 #img {
     border-radius: 10px;
+    width: 300px;
 
 }
 #title {
     color: #3F4450;
     font-family: sans-serif;
-    font-size: 22px;
+    font-size: 20px;
 }
 #title:hover{
     color: red;
 }
 #price{
     color: #7E8391;
-    font-size: 20px;
+    font-size: 16px;
 }
 #shopify-section-footer  {
     margin-top:1000px;
@@ -118,6 +124,9 @@ a:hover {
     /* border: 1px solid red; */
     background-color: #F6F6F9;
     
+}
+.grid {
+    margin-left: 60px;
 }
 .anchor{
     width: 60%;
@@ -129,7 +138,7 @@ a:hover {
     justify-content: space-evenly;
 }
 .anchor > a {
-    font-size: 20px;
+    font-size: 17px;
     color: #81848d;
     margin-top: 22px;
 }
@@ -137,11 +146,11 @@ a:hover {
     color: #cbcfd7;
 }
 .icons {
-    width: 10%;
+    width: 8%;
     /* border: 1px solid black; */
     margin-top: -40px;
     display: flex-end;
-    margin-left: 1670px;
+    margin-left: 1300px;
     justify-content: space-evenly;
     
 }
@@ -153,3 +162,4 @@ i {
 i:hover {
     color:#cbcfd7;
 }
+
