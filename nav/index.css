@@ -1,3 +1,9 @@
+body{
+    /* font-family: SofiaPro,helvetica neue,Helvetica,Arial,sans-serif; */
+    /* line-height: 1.5; */
+}
+
+
 #home-navbar{
     display: flex;
     justify-content: space-between;
@@ -6,18 +12,20 @@
 }
 
 #home-navbar-icon{
-    width:100px;
+    width: 60%;
 }
 #home-navbar-div2 {
     display: flex;
-    width: 63%;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
     border: 1px black;
 }
 
 #home-navbar-div1 {
     padding: 10px 8px;
 }
-#home-navbar-div2  div{
+#home-navbar-div2 > div{
     margin-left:35px;
     margin-top: 22px;
     margin-bottom: 16px;
@@ -31,7 +39,7 @@
 #home-navbar-div2 > #navbar-hiring{
     background-color: rgb(240, 239, 239);
     border-radius: 20px;
-    width: 130px;
+    padding: 5px 12px;
     text-align: center;
 }
 
@@ -118,4 +126,47 @@
     border-radius: 4px;
     font-size: 17px;
     margin-left: 20px;
+}
+
+
+
+
+
+
+/* hover bala yha se hai */
+
+.drop-hower-div{
+    position: relative;
+    display: inline-block;
+}
+
+.drop-down-div-content{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    width: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    /* margin-top: 15px; */
+}
+
+.drop-hower-div:hover .drop-down-div-content{
+    display: block;
+}
+
+.drop-hower-div:hover > .drop-down-div-content >a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.drop-down-div-content a {
+    display: flex;
+}
+.drop-down-div-content a div{
+    /* margin-top: -20px; */
+    margin-left: 5px;
+}
+.drop-down-div-content a > div > div:first-child {
+    font-weight: 900;
 }
