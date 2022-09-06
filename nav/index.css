@@ -139,26 +139,90 @@
 
 #home-second-inner-desc{
     height: 100%;
-    border: 1px solid crimson;
 }
 
 #home-second-inner-form{
-    width: 50%;
-    border: 1px solid black;
-    margin-left: 200px;
-    margin-top: 150px;
+    width: 55%;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-right: -100px;
 }
 
 #home-page-second-inner-img{
     width: 100%;
     height: 420px;
-    margin-left: -450px;
+    margin-left: -500px;
     padding-left: 0px;
-    border: 1px solid black;
     background-image: url("/envoy-clone-project/banner-image-xl.png");
     background-size: cover;
 }
 
-#home-second-inner-form{
-    font-size: 40px;
+#home-second-inner-form-heading{
+    font-size: 45px;
+    font-weight: bolder;
+    color: rgb(45, 45, 176);
+}
+
+#home-second-inner-desc-para{
+    color: rgb(45, 45, 176);;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#home-second-inner-desc-button{
+    color: white;
+    background-color:rgb(45, 45, 176);
+    border: none;
+    padding :  10px 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+#home-second-inner-desc-button:hover{
+    background-color: rgb(3, 3, 171);;
+}
+
+#home-page-section-third-products{
+    width:60%;
+    margin-left: 200px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    padding: 120px 0px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.home-page-section-third-icon{
+    width: 48px;
+    height: 48px;
+}
+
+.home-page-section-third-image{
+    display: flex;
+    align-items: center;
+}
+
+.home-sections-third-heading-three{
+    margin-left: 20px;
+}
+
+.home-bold-font{
+    text-decoration: none;
+    color: crimson;
+}
+
+.home-bold-font:hover{
+    color: brown;
+}
+
+#span-border{
+    margin: 0px 8px;
+    color: grey;
+}
+
+#home-page-third-sub-heading{
+    font-size: 45px;
+    margin-top: 10px;
 }
