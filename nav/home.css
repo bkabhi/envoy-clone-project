@@ -1,0 +1,231 @@
+#home-page-top{
+    width: 100%;
+    height: 750px;
+    background-image: url("https://envoy.com/images/home/homepage-hero-m.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-page-top-inner{
+    width: 35%;
+    margin-left: 430px;
+    margin-top: 45px;
+}
+
+#home-page-top-form{
+    background-color: white;
+    padding: 10px 50px 10px 50px;
+}
+
+#home-page-top-form-description{
+    color: grey;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#home-page-top-form-title{
+    font-size: 45px;
+}
+
+#home-page-form-input{
+    display: flex;
+}
+
+#home-email{
+    font-size: 17px;
+    padding: 5px 10px;
+    width: 200px;
+    border: none;
+    border: 2px solid grey;
+     border-radius: 8px;
+}
+
+#home-page-form-get-start{
+    color: white;
+    background-color:#FF4949;
+    border: none;
+    padding :  10px 18px;
+    /* margin-top: 7px; */
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+/* home  */
+
+
+#home-page-top-form-para{
+    text-align: center;
+    color:grey;
+}
+
+#home-page-top-form-span > a{
+    color: crimson;
+    text-decoration: none;
+}
+
+#home-page-section-second{
+    background-color:  #b5e0ec;
+    height: 420px;
+}
+
+#home-page-second{
+    display: flex;
+    justify-content: space-between;
+}
+
+#home-second-inner-desc{
+    height: 100%;
+}
+
+#home-second-inner-form{
+    width: 55%;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-right: -100px;
+}
+
+#home-page-second-inner-img{
+    width: 100%;
+    height: 420px;
+    margin-left: -500px;
+    padding-left: 0px;
+    background-image: url("/envoy-clone-project/banner-image-xl.png");
+    background-size: cover;
+}
+
+#home-second-inner-form-heading{
+    font-size: 45px;
+    font-weight: bolder;
+    color: rgb(45, 45, 176);
+}
+
+#home-second-inner-desc-para{
+    color: rgb(45, 45, 176);;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#home-second-inner-desc-button{
+    color: white;
+    background-color:rgb(45, 45, 176);
+    border: none;
+    padding :  10px 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+#home-second-inner-desc-button:hover{
+    background-color: rgb(3, 3, 171);;
+}
+
+#home-page-section-third-products{
+    width:60%;
+    margin-left: 200px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    padding: 120px 0px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.home-page-section-third-icon{
+    width: 48px;
+    height: 48px;
+}
+
+.home-page-section-third-image{
+    display: flex;
+    align-items: center;
+}
+
+.home-sections-third-heading-three{
+    margin-left: 20px;
+}
+
+.home-bold-font{
+    text-decoration: none;
+    color: crimson;
+}
+
+.home-bold-font:hover{
+    color: brown;
+}
+
+#span-border{
+    margin: 0px 8px;
+    color: grey;
+}
+
+#home-page-third-sub-heading{
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+#home-page-forth-video{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://envoy.com/images/home/lionsgate-interstitial.jpg");
+    background-size: cover;
+}
+
+#home-page-forth-heading{
+    width:60%;
+    padding-top: 110px;
+    margin: auto;
+    text-align: center;
+}
+
+#home-page-forth-heading > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#home-page-heading-h2{
+    font-size: 45px;
+}
+
+#home-page-fifth-div1{
+    width: 100%;
+    height: 520px;
+    background-image: url("https://envoy.com/images/section-backgrounds/squiggles.svg");
+    background-size: cover;
+}
+
+#home-page-fifth-div2{
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    padding-top: 130px;
+}
+
+#home-page-fifth-div2-heading{
+    font-size: 48px;
+    color: rgb(45, 45, 176);
+}
+
+#home-page-fifth-div2-para{
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+}
+
+#home-page-fifth-div2-btn{
+    color: white;
+    background-color:rgb(45, 45, 176);
+    border: none;
+    padding :  10px 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 17px;
+}
