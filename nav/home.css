@@ -135,8 +135,8 @@
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     padding: 120px 0px;
-    column-gap: 10px;
-    row-gap: 10px;
+    column-gap: 35px;
+    row-gap: 35px;
 }
 
 .home-page-section-third-icon{
@@ -274,4 +274,176 @@
 
 .home-page-sixth-para{
     color: grey;
+}
+
+#home-page-section-seven{
+    background-color: #fa4338;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.home-section-seven-container-span{
+    color: crimson;
+}
+
+.home-section-seven-container-span:hover{
+    color: brown;
+}
+
+.home-page-section-seven-container{
+    width: 82%;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid rgb(251, 173, 173);
+}
+
+.home-page-section-seven-container-top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.home-page-section-seven-container-top-right{
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(251, 173, 173);
+}
+
+.home-page-section-seven-container-top-left{
+    padding-right: 32px;
+    border-bottom: 1px solid rgb(251, 173, 173);
+}
+
+#home-page-section-seven-container-top-right-sub-div1{
+    align-self: center;
+    background-color: white;
+    margin-right: 15px;
+    padding: 25px;
+    border-radius: 7px;
+}
+
+.home-page-section-seven-container-top-right-sub-div2{
+    background-color: white;
+    margin-left: 15px;
+    padding: 25px;
+    border-radius: 7px;
+}
+
+.home-page-section-seven-container-top-right-img{
+    width: 50px;
+}
+
+#home-page-section-seven-container-top-left-heading1{
+    font-size: 70px;
+    width: 100%;
+    color: rgb(251, 173, 173);
+}
+
+#home-seventh-top-right-div2{
+    margin-top: 20px;
+}
+
+#home-page-section-seven-container-top-left-heading3{
+    font-size: 24px;
+    font-weight: 480;
+    color: rgb(251, 173, 173);
+    margin-top: -30px;
+}
+
+#read-all-stories{
+    color: white;
+    background-color:rgb(45, 45, 176);
+    border: none;
+    padding :  10px 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.home-seventh-top-right-div2-anchor{
+    text-decoration: none;
+}
+
+#home-page-section-eight{
+    width: 100%;
+    background-image: url("https://envoy.com/images/section-backgrounds/freckles.svg");
+    background-size: contain;
+    background-color: rgb(244, 242, 242);
+}
+
+#home-page-section-eight-container{
+    width: 82%;
+    margin: auto;
+}
+
+#home-page-section-eight-sub-container1{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#home-page-eight-sub-container-h1{
+    font-size: 48px;
+}
+
+#Explore-integrations{
+    color: white;
+    background-color:#FF4949;
+    border: none;
+    padding :  10px 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+#Build-your-own{
+    color: #FF4949;
+    background-color:white;
+    border: none;
+    padding :  10px 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+#home-page-section-eight-sub-container1-sub-div{
+    margin-top: 40px;
+}
+
+#home-page-section-eight-sub-container2{
+    margin-top: 70px;
+    padding-bottom: 90px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.home-page-section-eight-sub-container3{
+    padding: 25px;
+    background-color: white;
+    border-radius: 9px;
+}
+
+.home-page-section-eight-sub-container3:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.home-page-section-eight-sub-container3-h2{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.home-page-section-eight-sub-container3-img{
+    width: 40px;
+}
+
+.home-page-section-eight-sub-anchor{
+    text-decoration: none;
+    color: rgb(26, 25, 25);
 }
