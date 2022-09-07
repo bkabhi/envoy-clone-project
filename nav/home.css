@@ -229,3 +229,23 @@
     border-radius: 4px;
     font-size: 17px;
 }
+
+#home-page-section-sixth-div1{
+    width: 80%;
+    margin: auto;
+}
+
+#home-page-sixth-div2{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    column-gap: 30px;
+}
+
+.home-page-sixth-sub-div2-img{
+    width: 100%;
+}
+
+#home-page-section-sixth-heading3{
+    text-transform: uppercase;
+    color:grey;
+}
