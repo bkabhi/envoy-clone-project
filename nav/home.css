@@ -249,3 +249,22 @@
     text-transform: uppercase;
     color:grey;
 }
+
+
+#home-page-section-seven{
+    background-color: #fa4338;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.home-page-section-seven-container{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.home-page-section-seven-container-top{
+    display: flex;
+    padding: 20px;
+}
+
