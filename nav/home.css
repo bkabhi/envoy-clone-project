@@ -233,6 +233,7 @@
 #home-page-section-sixth-div1{
     width: 80%;
     margin: auto;
+    /* padding-bottom: 100px; */
 }
 
 #home-page-sixth-div2{
@@ -243,9 +244,34 @@
 
 .home-page-sixth-sub-div2-img{
     width: 100%;
+    border-radius: 8px;
 }
 
 #home-page-section-sixth-heading3{
     text-transform: uppercase;
     color:grey;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+#home-page-section-sixth-heading1{
+    max-width: 500px;
+    font-size: 45px;
+}
+
+.home-page-sixth-anchor{
+    text-decoration: none;
+    color: black;
+}
+
+.home-page-sixth-sub-div2-img:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.home-page-section-sixth-sub-siv-h2:hover{
+    color: crimson;
+}
+
+.home-page-sixth-para{
+    color: grey;
 }
