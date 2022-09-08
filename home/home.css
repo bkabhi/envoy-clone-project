@@ -1,20 +1,24 @@
 #home-page-top{
-    width: 100%;
-    height: 750px;
     background-image: url("https://envoy.com/images/home/homepage-hero-m.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -30px;
+    height: 805.48px;
+    margin-left: -360px;
+    width: auto;
+    position: relative;
 }
 
 #home-page-top-inner{
-    width: 35%;
-    margin-left: 430px;
-    margin-top: 45px;
+    width: 30%;
+    margin-left: 630px;
+    margin-top: 15px;
 }
 
 #home-page-top-form{
     background-color: white;
-    padding: 10px 50px 10px 50px;
+    /* padding: 10px 50px 10px 50px; */
+    padding: 30px;
 }
 
 #home-page-top-form-description{
@@ -366,6 +370,7 @@
 
 .home-seventh-top-right-div2-anchor{
     text-decoration: none;
+    color: black;
 }
 
 #home-page-section-eight{

@@ -11,8 +11,8 @@
     justify-content: space-between;
 
 }
-#shopify-section-header > #logo > img {
-    width: 120px;
+#shopify-section-header > #logo >a> img {
+    width: 100px;
     padding: 5px;
     
 }
@@ -26,13 +26,11 @@
     border-left: none;
     border-right: 3px solid #E9EAF2;
     padding-right: 40px;
-  
-   
     
     /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
 }
 
-#logo > a {
+#logo > a:last-child {
     margin-left: 60px;
     margin-top: 12px;
     

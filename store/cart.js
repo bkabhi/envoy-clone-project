@@ -20,7 +20,7 @@ const goToCart = async() => {
 
             var infoBox = document.createElement("div");
             infoBox.setAttribute("id", "infoBox");
-
+            
             var title = document.createElement("h1");
             title.innerText = res2.title;
 
@@ -30,7 +30,8 @@ const goToCart = async() => {
             var quantity = document.createElement("input");
             quantity.setAttribute("type", "number");
             quantity.setAttribute("id", "quantity");
-            quantity.setAttribute("placeholder", "quantity");
+            quantity.setAttribute("min", 1)
+            quantity.setAttribute("placeholder", "1");
             
             var add = document.createElement("button");
             add.setAttribute("id", "addBtn");
