@@ -13,30 +13,37 @@ function navbar(){
                 <div class="drop-down-div-content">
                     <a href="">
                         <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
+                        <div class="drop-content-text">
                             <div>Visitors</div>
                             <div>Visitor management solutions for any front desk</div>
                         </div>
                     </a>
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
+                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/protect-app.png" alt="">
+                        <div class="drop-content-text">
                             <div>Protect</div>
-                            <div>Visitor management solutions for any front desk</div>
+                            <div>Manage hybrid schedules and keep employees safe</div>
                         </div>
                     </a>
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
-                            <div>Visitors</div>
-                            <div>Visitor management solutions for any front desk</div>
+                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/desks-app.png" alt="">
+                        <div class="drop-content-text">
+                            <div>Desks</div>
+                            <div>Easy desk booking for a flexible workplace</div>
                         </div>
                     </a>
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
-                            <div>Visitors</div>
-                            <div>Visitor management solutions for any front desk</div>
+                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/rooms-app.png" alt="">
+                        <div class="drop-content-text">
+                            <div>Rooms</div>
+                            <div>Room booking make easier for your team</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/deliveries-app.png" alt="">
+                        <div class="drop-content-text">
+                            <div>Deliveries</div>
+                            <div>A new way to organize incomig office deliveries</div>
                         </div>
                     </a>
                 </div>
@@ -48,31 +55,52 @@ function navbar(){
         <div class="drop-down-div-content-parent">
                 <div class="drop-down-div-content">
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
-                            <div>Visitors</div>
-                            <div>Visitor management solutions for any front desk</div>
+                        <img width="20px"src="https://envoy.com/images/icons/24px/red/globe.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Hybrid Work</div>
+                            <div></div>
                         </div>
                     </a>
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
-                            <div>Protect</div>
-                            <div>Visitor management solutions for any front desk</div>
+                        <img width="20px"src="https://envoy.com/images/icons/24px/red/office.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Support enterprise needs</div>
+                            <div></div>
                         </div>
                     </a>
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
-                            <div>Visitors</div>
-                            <div>Visitor management solutions for any front desk</div>
+                        <img width="20px" src="https://envoy.com/images/icons/24px/red/shield.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Enhance security</div>
+                            <div></div>
                         </div>
                     </a>
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
-                            <div>Visitors</div>
-                            <div>Visitor management solutions for any front desk</div>
+                        <img width="20px" src="https://envoy.com/images/icons/24px/red/rooms.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Space management</div>
+                            <div></div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <img width="20px" src="https://envoy.com/images/icons/24px/red/pulse.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Workplace health and safety</div>
+                            <div></div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <img width="20px" src="https://envoy.com/images/icons/16px/red/sparkles.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Workplace experience</div>
+                            <div></div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <img width="20px" src="https://envoy.com/images/icons/24px/red/document.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Meet compliance requirments</div>
+                            <div></div>
                         </div>
                     </a>
                 </div>
@@ -84,31 +112,66 @@ function navbar(){
         <div class="drop-down-div-content-parent">
                 <div class="drop-down-div-content">
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
-                            <div>Visitors</div>
-                            <div>Visitor management solutions for any front desk</div>
+                        <img  width="20px"src="https://envoy.com/images/icons/24px/red/office.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Workplace trends report</div>
+                            <div></div>
                         </div>
                     </a>
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
-                            <div>Protect</div>
-                            <div>Visitor management solutions for any front desk</div>
+                        <img  width="20px" src="https://envoy.com/images/icons/24px/red/pen-nib.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Blog</div>
+                            <div></div>
                         </div>
                     </a>
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
-                            <div>Visitors</div>
-                            <div>Visitor management solutions for any front desk</div>
+                        <img  width="20px" src="https://envoy.com/images/icons/24px/red/book.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Ebooks</div>
+                            <div></div>
                         </div>
                     </a>
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
-                            <div>Visitors</div>
-                            <div>Visitor management solutions for any front desk</div>
+                        <img  width="20px" src="https://envoy.com/images/icons/24px/red/webinar.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Webinars</div>
+                            <div></div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <img  width="20px" src="https://envoy.com/images/icons/24px/red/announcements.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Case studies</div>
+                            <div></div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <img  width="20px" src="https://envoy.com/images/icons/16px/red/sparkles.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Data insights</div>
+                            <div></div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <img  width="20px" src="https://envoy.com/images/icons/24px/red/data.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Return to Workplace Index</div>
+                            <div></div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <img  width="20px" src="https://envoy.com/images/icons/24px/red/megaphone.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Product News</div>
+                            <div></div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <img  width="20px" src="https://envoy.com/images/icons/24px/red/globe.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Hybrid Work Resource Hub</div>
+                            <div></div>
                         </div>
                     </a>
                 </div>
@@ -123,31 +186,31 @@ function navbar(){
         <div class="drop-down-div-content-parent">
                 <div class="drop-down-div-content">
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
-                            <div>Visitors</div>
-                            <div>Visitor management solutions for any front desk</div>
+                        <img  width="20px" src="https://envoy.com/images/icons/24px/red/tag.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Plans and pricing</div>
+                            <div></div>
                         </div>
                     </a>
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
-                            <div>Protect</div>
-                            <div>Visitor management solutions for any front desk</div>
+                        <img width="20px" src="https://envoy.com/images/icons/24px/red/calculator.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Get a quote</div>
+                            <div></div>
                         </div>
                     </a>
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
-                            <div>Visitors</div>
-                            <div>Visitor management solutions for any front desk</div>
+                        <img width="20px" src="https://envoy.com/images/icons/24px/red/phone.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Call sales: (877)652-2808</div>
+                            <div></div>
                         </div>
                     </a>
                     <a href="">
-                        <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
-                        <div class="drop--content-text">
-                            <div>Visitors</div>
-                            <div>Visitor management solutions for any front desk</div>
+                        <img width="20px" src="https://envoy.com/images/icons/24px/red/envelope.svg" alt="">
+                        <div >
+                            <div class="drop--content-text">Contact us</div>
+                            <div></div>
                         </div>
                     </a>
                 </div>

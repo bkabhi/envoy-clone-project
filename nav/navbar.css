@@ -35,6 +35,7 @@ body{
     border-radius: 20px;
     padding: 5px 12px;
     text-align: center;
+    white-space: nowrap;
 }
 
 #home-navbar-div2 > div{
@@ -50,6 +51,7 @@ body{
 
 #navbar-login{
     font-weight: bolder;
+    white-space: nowrap;
 }
 
 #navbar-get-started > a{
@@ -60,6 +62,7 @@ body{
     font-weight: bold;
     border-radius: 4px;
     font-size: 18px;
+    white-space: nowrap;
 }
 
 #navbar-get-started > a:hover{
@@ -80,11 +83,6 @@ body{
 .drop-down-div-content-parent{
     animation-name: menubarOpen;
     animation-duration: 800ms;
-    /* animation-timing-function:linear; */
-    /* position: absolute; */
-    /* left: 0px; */
-    /* transition-duration: 500ms;
-    transition: 0.5s; */
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 @keyframes menubarOpen {
@@ -100,8 +98,6 @@ body{
 
 
 
-/* .drop-down-div-content-parent */
-/* .drop-down-div-content */
 
 .drop-down-div-content-parent{
     display: none;
@@ -111,7 +107,7 @@ body{
     margin-left: -150px;
 }
 .drop-down-div-content{
-    width: 400px;
+    width: 450px;
     padding: 15px;
     border-radius: 10px;
     margin-top: 20px;
@@ -119,12 +115,31 @@ body{
     background-color: #fff;
 }
 
+.drop-down-div-content-parent > .drop-down-div-content .drop--content-text{
+    /* align-items: center; */
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+#navbar-solutions > .drop-down-div-content-parent > .drop-down-div-content{
+    width: 250px;
+}
+
+#navbar-resources > .drop-down-div-content-parent > .drop-down-div-content{
+    width: 270px;
+}
+
+#navbar-pricing > .drop-down-div-content-parent > .drop-down-div-content{
+    width: 270px;
+}
+
 .drop-hower-div:hover > .drop-down-div-content-parent{
     display: block;
 }
 .drop-down-div-content-parent a:hover{
     background-color: #efefef;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 .drop-hower-div:hover > .drop-down-div-content-parent> .drop-down-div-content >a{
@@ -224,4 +239,44 @@ i {
 
 i:hover {
     color: #cbcfd7;
+}
+
+
+@media  screen and (min-width: 930px) and (max-width: 1024px) {
+    #home-navbar-div2 > #navbar-hiring{
+        display: none;
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 930px) {
+    #home-navbar-div2 > #navbar-hiring{
+        display: none;
+    }
+
+      #home-navbar-div2 :nth-child(5), #home-navbar-div2 :nth-child(6){
+        display: none;
+    }
+}
+
+@media  screen and (min-width: 400px) and (max-width: 768px) {
+    #home-navbar-div2 > #navbar-hiring{
+        display: none;
+    }
+    #home-navbar-div2 :nth-child(2), #home-navbar-div2 :nth-child(3), #home-navbar-div2 :nth-child(4), #home-navbar-div2 :nth-child(5), #home-navbar-div2 :nth-child(6){
+        display: none;
+    }
+}
+
+@media  screen and (min-width: 300px) and (max-width: 400px) {
+    #home-navbar-div2 > #navbar-hiring{
+        display: none;
+    }
+    #home-navbar-div2 :nth-child(2), #home-navbar-div2 :nth-child(3), #home-navbar-div2 :nth-child(4), #home-navbar-div2 :nth-child(5), #home-navbar-div2 :nth-child(6), #home-navbar-div2 :nth-child(7){
+        display: none;
+    }
+}
+
+@media  screen and (min-width: 40px) and (max-width: 300px) {
+    #home-navbar-div2{
+        display: none;
+    }
 }
