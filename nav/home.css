@@ -98,7 +98,7 @@
     height: 420px;
     margin-left: -500px;
     padding-left: 0px;
-    background-image: url("/envoy-clone-project/banner-image-xl.png");
+    background-image: url("/banner-image-xl.png");
     background-size: cover;
 }
 
@@ -233,7 +233,6 @@
 #home-page-section-sixth-div1{
     width: 80%;
     margin: auto;
-    /* padding-bottom: 100px; */
 }
 
 #home-page-sixth-div2{
@@ -366,6 +365,7 @@
 
 .home-seventh-top-right-div2-anchor{
     text-decoration: none;
+    color: black;
 }
 
 #home-page-section-eight{
