@@ -104,13 +104,17 @@
     display: flex;
 }
 #checkOut {
-    padding: 10px;
+    padding: 20px;
     width: 100px;
     background-color: #FB6960;
     color: white;
     border: none;
     border-radius: 5px;
     margin-left: 700px;
+    
+}
+#checkOut:hover {
+    background-color: #e43a31;
 }
 
 #totalPrice {
