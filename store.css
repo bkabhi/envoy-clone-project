@@ -38,18 +38,23 @@
     
 }
 
-a {
+#logo > a {
     font-size: large;
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
-a:hover {
+#logo > a:hover {
     color: red;
 }
-#cart {
+#cart > a {
     padding: 15px;
     /* margin-left: 1500px; */
+    text-decoration: none;
+    color: black;
+}
+#cart > a:hover {
+    color: red;
 }
 
 #site-wrapper {
@@ -79,6 +84,7 @@ a:hover {
 #bar > ul > a{ 
     color: #938391;
     font-size: medium;
+    text-decoration: none;
 }
 
 #bar > ul > a:hover{
@@ -141,6 +147,7 @@ a:hover {
     font-size: 17px;
     color: #81848d;
     margin-top: 22px;
+    text-decoration: none;
 }
 .anchor > a:hover {
     color: #cbcfd7;
@@ -154,12 +161,12 @@ a:hover {
     justify-content: space-evenly;
     
 }
-i {
+.icons > a > i {
     color: #81848d;
     margin: 7px;
 
 }
-i:hover {
+.icons > a > i:hover {
     color:#cbcfd7;
 }
 

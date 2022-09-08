@@ -38,13 +38,13 @@
     
 }
 
-a {
+#logo > a {
     font-size: large;
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
-a:hover {
+#logo > a:hover {
     color: red;
 }
 #cart {
@@ -53,6 +53,10 @@ a:hover {
     flex-direction: row;
     align-items: center;
     /* margin-left: 1500px; */
+}
+
+#cart > a:hover {
+    color: red;
 }
 
 #cart > p {
@@ -85,6 +89,7 @@ a:hover {
 #bar > ul > a{ 
     color: #938391;
     font-size: medium;
+    text-decoration: none;
 }
 
 #bar > ul > a:hover{

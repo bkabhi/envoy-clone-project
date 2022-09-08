@@ -30,6 +30,7 @@ const goToCart = async() => {
             var quantity = document.createElement("input");
             quantity.setAttribute("type", "number");
             quantity.setAttribute("id", "quantity");
+            quantity.setAttribute("min", 0);
             quantity.setAttribute("placeholder", "quantity");
             
             var add = document.createElement("button");

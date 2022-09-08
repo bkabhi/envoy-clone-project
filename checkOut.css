@@ -35,21 +35,24 @@
 #logo > a {
     margin-left: 60px;
     margin-top: 12px;
-    
+    text-decoration: none; 
 }
 
-a {
+#logo > a {
     font-size: large;
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
-a:hover {
+#logo > a:hover {
     color: red;
 }
 #cart {
     padding: 15px;
     /* margin-left: 1500px; */
+}
+#cart > a:hover {
+    color: red;
 }
 
 #site-wrapper {
@@ -78,8 +81,61 @@ a:hover {
 #bar > ul > a{ 
     color: #938391;
     font-size: medium;
+    text-decoration: none;
 }
 
 #bar > ul > a:hover{
     color: red;
 }
+
+#resImage {
+    width: 70%;
+    padding: 10px;
+}
+#tableHeader {
+    margin: 0px;
+
+}
+
+#tableHeader > th {
+    margin: 40px;
+}
+#totalPrice {
+    display: flex;
+}
+#checkOut {
+    padding: 10px;
+    width: 100px;
+    background-color: #FB6960;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 700px;
+}
+
+#totalPrice {
+    margin-left: 650px;
+
+}
+#Sub {
+    font-size: 25px;
+    color: #3F4450;
+    font-weight: bolder;
+}
+#total {
+    font-size: 25px;
+    color: #3F4450;
+}
+#remove {
+    background-color: #FFFFFF;
+    color:#5d616a;
+    border: none;
+}
+#remove:hover {
+    color: red;
+}
+
+tr td {
+    padding: 15px;
+}
+
