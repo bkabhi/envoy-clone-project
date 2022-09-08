@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp 1</title>
+  </head>
+  <style>
+    * {
+    }
+    body {
+      /* background-image: url("https://signup.envoy.com/assets/images/logo-new.svg" ) ; */
+      background-repeat: no-repeat;
+      background-position: 10px 15px;
+      background-color: rgb(246, 246, 249);
+    }
+    .name {
+      width: 32vw;
+      display: flex;
+      justify-content: space-between;
+    }
+    p {
+      color: gray;
+      margin-bottom: 10vh;
+    }
+    button {
+      background-color: rgb(250, 67, 56);
+      color: white;
+      border: none;
+      height: 40px;
+      width: 95px;
+      border-radius: 0.5vh;
+      font-size: medium;
+      float: right;
+    }
+    h4 {
+      margin-top: 25px;
+      font-family: sans-serif;
+    }
+
+    #logodiv {
+       
+        width: 95px;
+        height: 42px;
+    }
+     
+    #logodiv > img {
+        width: 100%;
+    }
+
+    #container {
+      margin: auto;
+      margin-top: 0;
+      display: flex;
+      width: 60vw;
+      height: 105vh;
+    }
+
+    .card1 {
+      width: 65%;
+      padding: 30px;
+      background-color: white; 
+    }
+    .card2 {
+      width: 35%;
+      padding: 15px;
+      background-color: rgb(235,235,240);
+      background-image: url(https://signup.envoy.com/assets/images/shapes/bottom-shapes-1.svg);
+    }
+    
+    label {
+      font-size: 15px;
+      color: grey;
+      font-family: sans-serif;
+    }
+    input {
+      width: 90%;
+      height: 5%;
+      margin-bottom: 4vh;
+      border-radius: 7px;
+      border-style: none;
+
+      box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+        rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    }
+    h1{
+        font-family: sans-serif;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif ;
+    }
+    .name > div > input {
+      width: 15vw;
+      height: 25%;
+      margin-bottom: 10vh;
+    }
+    span{
+        color: red;
+    }
+    
+  </style>
+  <body>
+    <div id="logodiv">
+      <img
+        src="https://signup.envoy.com/assets/images/logo-new.svg"
+        alt="logo"
+      />
+    </div>
+
+    <form>
+      <div id="container">
+        <div class="card1">
+          <h4>Create your Envoy account</h4>
+          <br />
+          <label for="">Email*</label><br /><br />
+          <input type="text" /><br />
+          <div class="name">
+            <div>
+              <label for="">First name*</label> <br /><br />
+              <input type="text" />
+            </div>
+            <div>
+              <label for="">Last name*</label> <br /><br />
+              <input type="text" />
+            </div>
+          </div>
+          <label for="">Mobile Number</label><br /><br />
+          <input type="text" /><br />
+          <label for="">Create Password*</label><br /><br />
+          <input type="text" />
+          <p>Password must be at least 8 characters and contain at least one
+            capital letter, one lower case letter, and one number. </p>
+          <p>By clicking "Next" you agree to our Terms of Service, Privacy
+            Policy, and to receive marketing communications from Envoy.</p>
+          <button onclick="click">Next ></button>
+        </div>
+        <div class="card2">
+            <h1>Envoy saves administrators an average of <span>100 hours</span>
+                per year</h1>
+                <p>Based on an Envoy customer survey</p>
+      </div>
+    </form>
+  </body>
+</html>

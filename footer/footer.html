@@ -10,18 +10,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
     <style>
-        .container {
+        .footer-container {
             color: black;
             display: flex;
-
+            
             font-style: normal;
+            
+           
         }
 
         #heading {
-            border: 2px solid red;
-            height: 600px;
-            padding-left: 140px;
-            font-style: normal;
+            font-family: SofiaPro,helvetica neue,Helvetica,Arial,sans-serif;
+            width: 90%;
+            margin: auto;
         }
 
         footer>div {
@@ -33,12 +34,60 @@
             margin: 10px;
             margin-left: 0px;
             list-style: none;
+            color: grey;
         }
         .footer-form-div-upper{
             display: flex;
             align-items: center;
             justify-content: space-between;
             margin-right: 20px;
+        }
+        #contact{
+            display: flex;
+            align-items: center;
+        }
+        .footer-form-div-h2{
+            font-size: 3rem;
+            margin: 0;
+            font-weight: 600;
+            color: red;
+            
+             
+        }
+        li:hover{
+            color: red;
+            cursor: pointer;
+        }
+        span{
+           color: red;
+        }
+        .footer-form-div-p{
+            font-size: 1.125rem;
+            
+        }
+        hr{
+            color: grey;
+        }
+        .footer-form-div-btn{
+            color: white;
+            background-color: red;
+            border: none;
+            font-size: medium;
+            padding: 1.5vh 1.8vw;
+            border-radius: 0.5vh;
+            font-weight: bold;
+        }
+        .footer-form-div-inp{
+            color: #81848d;
+            font-size: 1rem;
+            min-height: 2.2em;
+            padding: 1px 1rem 0 !important;
+            vertical-align: middle;
+           background: #f6f6f9;
+           border-radius: 6px!important;
+            font-weight: 400;
+           
+             border: 2px solid #e9eaf2!important;
         }
     </style>
 </head>
@@ -47,18 +96,19 @@
     <div id="heading">
         <div class="footer-form-div-upper">
             <div>
-                <h1>Try Envoy for free</h1>
-                <p>Transforming your workplace is easier than you think. Get started in minutes.</p>
+                <h2 class="footer-form-div-h2">Try Envoy for free</h2>
+                <p class="footer-form-div-p">Transforming your workplace is easier than you think. Get started in minutes.</p>
+                <br>
             </div>
             <div>
-                <input type="text" placeholder="Enter your Email" />
-                <button id="Get started">Get started</button>
+                <input  class="footer-form-div-inp" type="text" placeholder="Enter your Email" />
+                <button  class="footer-form-div-btn" >Get started</button>
             </div>
         </div>
         <hr>
-        <i class="fa-solid fa-phone"></i><span >Contact our sales team today at (877) 652-2808</span>
+        <div id="contact"><i class="fa-solid fa-phone"></i>&nbsp; &nbsp;<p>Contact our sales team today at <span>(877) 652-2808</span></p></div>
         <hr>
-        <footer class="container">
+        <footer class="footer-container">
             <div class="card1">
                 <ul>
                     <h3>Products</h3>
@@ -122,10 +172,10 @@
         <style>
             #shopify-section{
                 margin-top: 10px;
-                width: 100%;
                 background-color: #F6F6F9;
                 display: flex;
-                justify-content: space-around;
+                justify-content: space-between;
+                padding:5px 8em;
             }
             #shopify-section div{
                 
@@ -163,7 +213,6 @@
                 color: #81848d;
 
             }
-
             i:hover {
                 color: #cbcfd7;
             }

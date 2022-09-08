@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+</head>
+<style>
+    #logodiv {
+       
+       width: 95px;
+       height: 42px;
+   }
+    
+   #logodiv > img {
+       width: 100%;
+       text-align: center;
+   }
+   #login-container{
+    background-color: 5px solid red;
+    font-family: sans-serif;
+    /*margin: auto;
+    margin-top: 0;
+    display: flex;
+    width: 30vw;
+    height: 50vh;*/
+   }
+   .lock{
+    background-image: url(https://dashboard.envoy.com/assets/images/lock-427acf0….svg);
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 12px;
+    margin-left: -10px;
+    margin-right: 5px;
+    display: inline-block;
+    text-indent: -9999px;
+    opacity: .6;
+   }
+   button{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5vh;
+   }
+</style>
+<body>
+    <div id="logodiv">
+        <img
+          src="https://signup.envoy.com/assets/images/logo-new.svg"
+          alt="logo"
+        />
+      </div>
+
+      <form>
+        <div id="login-container">
+            <h3>Log in to the Envoy dashboard</h3><br>
+            <label for="">Company email address</label><br />
+          <input type="text" placeholder="email address" /><br /><br>
+          <button onclick="click"><span class="lock"></span> Next</button><br>
+          <a href="https://web.envoy.com/users/password/new"><p>Forgot your password?</p></a>
+        </div>
+      </form>
+</body>
+</html>

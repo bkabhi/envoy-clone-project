@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup 2</title>
+</head>
+<style>
+    * {
+    }
+    body {
+      /* background-image: url("https://signup.envoy.com/assets/images/logo-new.svg" ) ; */
+      background-repeat: no-repeat;
+      background-position: 10px 15px;
+      background-color: rgb(246, 246, 249);
+    }
+    p {
+      color: gray;
+      margin-bottom: 10vh;
+    }
+    button {
+      background-color: rgb(250, 67, 56);
+      color: white;
+      border: none;
+      height: 40px;
+      width: 110px;
+      border-radius: 0.5vh;
+      font-size: medium;
+      float: right;
+      font-weight: bolder;
+    }
+    h4 {
+      margin-top: 25px;
+      font-family: sans-serif;
+    }
+
+    #logodiv {
+       
+        width: 95px;
+        height: 42px;
+    }
+     
+    #logodiv > img {
+        width: 100%;
+    }
+
+    #container {
+      margin: auto;
+      margin-top: 0;
+      display: flex;
+      width: 60vw;
+      height: 105vh;
+    }
+
+    .card1 {
+      width: 65%;
+      padding: 30px;
+      background-color: white; 
+    }
+    .card2 {
+      width: 35%;
+      padding: 15px;
+      background-color: rgb(235,235,240);
+      background-image: url(https://signup.envoy.com/assets/images/shapes/bottom-shapes-1.svg);
+    }
+    
+    label {
+      font-size: 15px;
+      color: grey;
+      font-family: sans-serif;
+    }
+    input {
+      width: 90%;
+      height: 5%;
+      margin-bottom: 4vh;
+      border-radius: 7px;
+      border-style: none;
+
+      box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+        rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    }
+    h1{
+        font-family: sans-serif;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif ;
+    }
+    .name > div > input {
+      width: 15vw;
+      height: 25%;
+      margin-bottom: 10vh;
+    }
+    span{
+        color: red;
+    }
+    
+  </style>
+<body>
+    <div id="logodiv">
+        <img
+          src="https://signup.envoy.com/assets/images/logo-new.svg"
+          alt="logo"
+        />
+      </div>
+  
+      <form>
+        <div id="container">
+          <div class="card1">
+            <h4>Tell us a bit about your company</h4>
+            <br />
+            <label for="">Company address</label><br><br />
+            <input type="text" placeholder="123 Main st." /><br />
+              <div>
+                <label for="">Company name</label><br><br />
+                <input type="text" /><br>
+            </div>
+              <div>
+                <label for="">Company size</label><br /><br />
+                <input type="text" placeholder="Please select..." />
+                <select id="Please select..."></select>
+                    <option value="1 - 49 employees"></option>
+                    <option value="50 - 250 employees"></option>
+                    <option value="251 - 1500 employees"></option>
+                    <option value="1501 - 5000 employees"></option>
+                    <option value="5001+ employees"></option>
+                </select>
+              </div>
+             <input type="checkbox" value="signup">
+             <label for="signup">I read and agree to the Terms of Service and the Privacy Policy</label>
+             <button onclick="click"> > Back</button>
+            <button onclick="click">Let's go ></button>
+          </div>
+          <div class="card2">
+              <h1> <span>Over 10,000</span>companies trust Envoy to welcome employees and guests to their workplaces</h1>
+              <div class="logo">
+              <a href="https://signup.envoy.com/assets/images/logos/slack-logo.svg"></a>
+              <a href="https://signup.envoy.com/assets/images/logos/square-logo.svg"></a>
+              <a href="https://signup.envoy.com/assets/images/logos/hulu-logo.svg"></a>
+              <a href="https://signup.envoy.com/assets/images/logos/warby-parker-logo.svg"></a>
+              <a href="https://signup.envoy.com/assets/images/logos/buzzfeed-logo.svg"></a>
+              <a href="https://signup.envoy.com/assets/images/logos/mazda-logo.svg"></a>
+            </div>
+        </div>
+      </form> 
+</body>
+</html>
