@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="https://dashboard.envoy.com/assets/images/logo-small-red-29747f5d18c38b072069367be9afc3ba.svg">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="../nav/navbar.css">
     <link rel="stylesheet" href="./home.css">
 </head>
 <body>
+    <nav id="home-navbar"></nav>
     <section id="home-page-section-first">
     <div id="home-page-top">
         <div id="home-page-top-inner">
@@ -146,8 +149,6 @@
             Best practices for productive workplaces
         </h1>
         <div id="home-page-sixth-div2">
-
-<!-- <<<<<<< HEAD -->
             <div class="home-page-sixth-sub-div2">
                 <a href="#" class="home-page-sixth-anchor">
                 <img src="https://envoy.com/images/featured-content/Blog-feature-What-is-workplace-experience..png" alt="" class="home-page-sixth-sub-div2-img">
@@ -171,7 +172,6 @@
                 <p class="home-page-sixth-para">In this post, we’ll explore the value of hybrid work and the steps you can take to ensure your employees transition to a hybrid workplace smoothly.</p>
             </a>
             </div>
-        
         </div>
     </div>
 </section>
@@ -185,7 +185,7 @@
             </div>
             <div class="home-page-section-seven-container-top-right">
                 <div id="home-page-section-seven-container-top-right-sub-div1">
-                   <a href="#" class="home-seventh-top-right-div2-anchor"> <img class="home-page-section-seven-container-top-right-img" src="https://envoy.com/images/home/case-study-icons/lionsgate.svg" alt="">
+                <a href="#" class="home-seventh-top-right-div2-anchor"> <img class="home-page-section-seven-container-top-right-img" src="https://envoy.com/images/home/case-study-icons/lionsgate.svg" alt="">
                     <h3>Lionsgate</h3>
                     <p>Adopting hybrid work to keep work entertaining.</p>
                     <span class="home-section-seven-container-span">Lights, camera, action</span>
@@ -211,7 +211,8 @@
             </div>
         </div>
         <div class="home-page-section-seven-container-down">
-            <img src="https://envoy.com/images/logos/home-logos.svg" alt="" class="home-page-section-seven-container-down-images">
+            <img src="https://envoy.com/images/logos/home-logos.svg" alt="">
+
         </div>
     </div>
 </section>
@@ -275,15 +276,22 @@
                 <p>Instantly notify employees of every Envoy update directly or in specific channels on Slack.</p>
             </a>
             </div>
-
             <div class="home-page-section-eight-sub-container3">
                 <a href="#" class="home-page-section-eight-sub-anchor"> <img class="home-page-section-eight-sub-container3-img" src="https://envoy.com/images/integrations/openpath-o.svg" alt="">
                 <h3 class="home-page-section-eight-sub-container3-h2">Open Path</h3>
                 <p>Instantly notify employees of every Envoy update directly or in specific channels on Slack.</p>
-               </a>
+            </a>
             </div>
         </div>
     </div>
 </section>
+<div id="footer-all-pages"></div>
 </body>
 </html>
+
+<script type="module">
+    import {navbar, footer} from "../nav/components.js"
+    var nav = document.getElementById("home-navbar");
+    nav.innerHTML = navbar();
+    document.getElementById("footer-all-pages").innerHTML = footer
+</script>

@@ -1,0 +1,66 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image_url": "https://cdn.shopify.com/s/files/1/0086/0402/4911/products/windfall-portrait_360x.jpg?v=1597361230",
+      "title": "Windfall (portrait) for 10.2 iPad",
+      "price": "$139.00",
+      "originalPrice": 139,
+      "device": "iPadStand",
+      "envoyInDevice": "iPadStand"
+      
+      
+    },
+  {
+      "id": 2,
+      "image_url": "https://cdn.shopify.com/s/files/1/0086/0402/4911/products/Rest-Hero-Render-2_360x.jpg?v=1597360680",
+      "title": "@Rest universal tablet stand",
+      "price": "$45.00",
+      "originalPrice": 45,
+      "device": "iPadStand"
+    },
+    {
+      "id": 3,
+      "image_url": "https://cdn.shopify.com/s/files/1/0086/0402/4911/products/expiring-badges_360x.gif?v=1598544555",
+      "title": "Expiring white badges",
+      "price": "$275.00",
+      "originalPrice": 275,
+      "device": "badge"
+      
+    },{
+      "id": 4,
+      "image_url": "https://cdn.shopify.com/s/files/1/0086/0402/4911/products/custom-color-badges_360x.jpg?v=1597360891",
+      "title": "Custom color badges",
+      "price": "$30.00",
+      "originalPrice": 30,
+      "device": "badge"
+      
+    },{
+      "id": 5,
+      "image_url": "https://cdn.shopify.com/s/files/1/0086/0402/4911/products/label-frame_360x.jpg?v=1597361060",
+      "title": "Label frame for badge printer",
+      "price": "$3.00",
+      "originalPrice": 3,
+      "device": "badgePrinter"
+      
+    },{
+      "id": 6,
+      "image_url": "https://cdn.shopify.com/s/files/1/0086/0402/4911/products/blank-badges_360x.jpg?v=1597360821",
+      "title": "Blank badges",
+      "price": "$20.00",
+      "originalPrice": 20,
+      "device": "badge",
+      "envoyInDevice": "badge"
+      
+    },{
+      "id": 7,
+      "image_url": "https://cdn.shopify.com/s/files/1/0086/0402/4911/products/ipad-space-gray_cf3039b7-7909-4e3a-bffe-90a3d7410065_360x.jpg?v=1643225240",
+      "title": "iPad (9th Gen)",
+      "price": "$329.00",
+      "originalPrice": 329,
+      "device": "iPads",
+      "envoyInDevice": "iPads"
+      
+    }
+  ]
+}

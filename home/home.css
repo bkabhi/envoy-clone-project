@@ -1,25 +1,24 @@
 #home-page-top{
-    width: 100%;
     background-image: url("https://envoy.com/images/home/homepage-hero-m.svg");
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    height: 722px;
     margin-top: -30px;
-    overflow: hidden;
+    height: 805.48px;
+    margin-left: -360px;
+    width: auto;
+    position: relative;
 }
 
 #home-page-top-inner{
-    width: 520px;
-    margin-left: 30%;
-    margin-top: 45px;
-    display: block;
+    width: 30%;
+    margin-left: 630px;
+    margin-top: 15px;
 }
 
 #home-page-top-form{
     background-color: white;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    /* padding: 10px 50px 10px 50px; */
+    padding: 30px;
 }
 
 #home-page-top-form-description{
@@ -55,7 +54,6 @@
     border-radius: 4px;
     font-size: 17px;
     margin-left: 20px;
-    white-space: nowrap;
 }
 
 
@@ -80,12 +78,12 @@
 
 #home-page-section-second{
     background-color:  #b5e0ec;
-    height: 450px;
+    height: 420px;
 }
 
 #home-page-second{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 #home-second-inner-desc{
@@ -100,11 +98,11 @@
 }
 
 #home-page-second-inner-img{
-    width: 1600px;
+    width: 100%;
     height: 420px;
-    margin-left: -530px;
+    margin-left: -500px;
     padding-left: 0px;
-    background-image: url(https://envoy.com/images/home/banner-image-xl.svg);
+    background-image: url("/envoy-clone-project/banner-image-xl.png");
     background-size: cover;
 }
 
@@ -239,6 +237,7 @@
 #home-page-section-sixth-div1{
     width: 80%;
     margin: auto;
+    /* padding-bottom: 100px; */
 }
 
 #home-page-sixth-div2{
@@ -351,10 +350,6 @@
     margin-top: 20px;
 }
 
-.home-page-section-seven-container-down-images{
-    width: 100%;
-}
-
 #home-page-section-seven-container-top-left-heading3{
     font-size: 24px;
     font-weight: 480;
@@ -458,56 +453,3 @@
     color: rgb(26, 25, 25);
 }
 
-
- @media screen and(max-width: 1024px) {
-    #home-page-fifth-div2{
-        height: auto;
-        padding: auto;
-    }
-
-    #home-page-second{
-        /* display: block; */
-    }
-
-    #home-second-inner-form{
-        width: 50%;
-        margin-left: 150px;
-        margin-top: 100px;
-        margin-right: -100px;
-        padding-top: 40px;
-    }
-    
-    #home-page-second-inner-img{
-        width: auto;
-        height: 420px;
-        margin-left: 0px;
-        padding-left: 0px;
-        background-image: url(https://envoy.com/images/home/banner-image-xl.svg);
-        background-size: cover;
-    }
-}
-
-@media screen and (max-width: 768px) {
-   
-
-    #home-page-section-third-products{
-        width:60%;
-        height: auto;
-        display: grid;
-        grid-template-columns: repeat(2 , 1fr);
-        column-gap: 35px;
-        row-gap: 35px;
-    }
-}
-@media screen and (max-width: 426px) {
-   
-
-    #home-page-section-third-products{
-        width:60%;
-        height: auto;
-        display: grid;
-        grid-template-columns: repeat(1 , 1fr);
-        column-gap: 35px;
-        row-gap: 35px;
-    }
-}
