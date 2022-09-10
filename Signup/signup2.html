@@ -80,6 +80,10 @@
       box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
         rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     }
+    .logo{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
     h1{
         font-family: sans-serif;
         text-align: center;
@@ -102,45 +106,62 @@
           alt="logo"
         />
       </div>
-  
       <form>
         <div id="container">
           <div class="card1">
             <h4>Tell us a bit about your company</h4>
             <br />
             <label for="">Company address</label><br><br />
-            <input type="text" placeholder="123 Main st." /><br />
-              <div>
+            <input type="text" id="address" placeholder="123 Main st." /><br />
+              <!-- <div> -->
                 <label for="">Company name</label><br><br />
-                <input type="text" /><br>
-            </div>
-              <div>
+                <input type="text" id="c-name" /><br>
+            <!-- </div> -->
+              <!-- <div> -->
                 <label for="">Company size</label><br /><br />
-                <input type="text" placeholder="Please select..." />
-                <select id="Please select..."></select>
-                    <option value="1 - 49 employees"></option>
-                    <option value="50 - 250 employees"></option>
-                    <option value="251 - 1500 employees"></option>
-                    <option value="1501 - 5000 employees"></option>
-                    <option value="5001+ employees"></option>
+                <!-- <input type="text" id="c-size" placeholder="Please select..." /> -->
+                <select id="c-size" >
+                  <option value="">please select....</option>
+                    <option value="1 - 49 employees">1 - 49 employees</option>
+                    <option value="50 - 250 employees">50 - 250 employees</option>
+                    <option value="251 - 1500 employees">251 - 1500 employees</option>
+                    <option value="1501 - 5000 employees">1501 - 5000 employees</option>
+                    <option value="5001+ employees">5001+ employees</option>
                 </select>
-              </div>
-             <input type="checkbox" value="signup">
+              <!-- </div> -->
+             <input type="checkbox" id="check" value="signup" required>
              <label for="signup">I read and agree to the Terms of Service and the Privacy Policy</label>
              <button onclick="click"> > Back</button>
-            <button onclick="click">Let's go ></button>
+            <button id="com_btn">Let's go ></button>
           </div>
+        </form> 
           <div class="card2">
               <h1> <span>Over 10,000</span>companies trust Envoy to welcome employees and guests to their workplaces</h1>
               <div class="logo">
-              <a href="https://signup.envoy.com/assets/images/logos/slack-logo.svg"></a>
-              <a href="https://signup.envoy.com/assets/images/logos/square-logo.svg"></a>
-              <a href="https://signup.envoy.com/assets/images/logos/hulu-logo.svg"></a>
-              <a href="https://signup.envoy.com/assets/images/logos/warby-parker-logo.svg"></a>
-              <a href="https://signup.envoy.com/assets/images/logos/buzzfeed-logo.svg"></a>
-              <a href="https://signup.envoy.com/assets/images/logos/mazda-logo.svg"></a>
+              <img src="https://signup.envoy.com/assets/images/logos/slack-logo.svg" alt="slack">
+              <img src="https://signup.envoy.com/assets/images/logos/square-logo.svg">
+              <img src="https://signup.envoy.com/assets/images/logos/hulu-logo.svg">
+              <img src="https://signup.envoy.com/assets/images/logos/warby-parker-logo.svg">
+              <img src="https://signup.envoy.com/assets/images/logos/buzzfeed-logo.svg">
+              <img src="https://signup.envoy.com/assets/images/logos/mazda-logo.svg">
             </div>
-        </div>
-      </form> 
+        </div> 
 </body>
 </html>
+<script>
+  var arr =JSON.parse(localStorage.getItem("signUp2")) || [];
+document.getElementById("com_btn").addEventListener("click",com_details)
+function com_details(){
+  event.preventDefault();
+  var address = document.getElementById("address").value;
+  var c_name = document.getElementById("c-name").value;
+  var c_size = document.getElementById("c-size").value;
+  
+  var obj ={
+    address:address,c_name:c_name,c_size:c_size
+  };
+ arr.push(obj);
+ console.log(arr);
+ localStorage.setItem("signUp2",JSON.stringify(arr));
+}
+</script>

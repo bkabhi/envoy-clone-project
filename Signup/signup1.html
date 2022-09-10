@@ -22,7 +22,6 @@
     }
     p {
       color: gray;
-      margin-bottom: 10vh;
     }
     button {
       background-color: rgb(250, 67, 56);
@@ -63,10 +62,17 @@
       background-color: white; 
     }
     .card2 {
+      display: block;
       width: 35%;
       padding: 15px;
       background-color: rgb(235,235,240);
       background-image: url(https://signup.envoy.com/assets/images/shapes/bottom-shapes-1.svg);
+    }
+
+    #card2div{
+      display: block;
+      margin-top: 100px;
+      align-self: center;
     }
     
     label {
@@ -113,32 +119,62 @@
           <h4>Create your Envoy account</h4>
           <br />
           <label for="">Email*</label><br /><br />
-          <input type="text" /><br />
+          <input type="email" id="email" /><br />
           <div class="name">
             <div>
               <label for="">First name*</label> <br /><br />
-              <input type="text" />
+              <input type="text" id="f-name" />
             </div>
             <div>
               <label for="">Last name*</label> <br /><br />
-              <input type="text" />
+              <input type="text" id="l-name" />
             </div>
           </div>
           <label for="">Mobile Number</label><br /><br />
-          <input type="text" /><br />
+          <input type="number" id="mobile"/><br />
           <label for="">Create Password*</label><br /><br />
-          <input type="text" />
+          <input type="password" id="password"/>
           <p>Password must be at least 8 characters and contain at least one
             capital letter, one lower case letter, and one number. </p>
           <p>By clicking "Next" you agree to our Terms of Service, Privacy
             Policy, and to receive marketing communications from Envoy.</p>
-          <button onclick="click">Next ></button>
+          <button id="sign_btn">Next ></button>
         </div>
         <div class="card2">
-            <h1>Envoy saves administrators an average of <span>100 hours</span>
+            <div id="card2div">
+              <h1>Envoy saves administrators an average of <span>100 hours</span>
                 per year</h1>
-                <p>Based on an Envoy customer survey</p>
+            </div>
+            <p>Based on an Envoy customer survey</p>
       </div>
     </form>
   </body>
 </html>
+<script>
+  document.getElementById("sign_btn").addEventListener("click", click);
+  var arr = JSON.parse(localStorage.getItem("signUp1")) || [];
+  function click(){
+  event.preventDefault();
+  var email = document.getElementById("email").value;
+  var f_name = document.getElementById("f-name").value;
+  var l_name = document.getElementById("l-name").value;
+  var mobile = document.getElementById("mobile").value;
+  var password = document.getElementById("password").value;
+
+  var Oobj = {
+    email:email,
+    f_name:f_name,
+    l_name:l_name,
+    mobile:mobile,
+    password:password
+  };
+
+
+  arr.push(Oobj);
+  localStorage.setItem("signUp1", JSON.stringify(arr));
+  alert("Sign Up succesfull");
+
+  window.location.href = "./signUp2.html";
+
+  }
+</script>
