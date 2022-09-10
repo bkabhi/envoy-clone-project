@@ -531,7 +531,7 @@
     #get-to-know {
         padding-bottom: 0;
         position: relative;
-        z-index: 5;
+        z-home: 5;
         margin-bottom: -48px
     }
 
@@ -1649,7 +1649,7 @@ h6 {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 0
+    z-home: 0
 }
 
 .painted-bg[class*=bg-] {
@@ -1927,7 +1927,7 @@ h6 {
     display: block;
     position: absolute;
     top: 25%;
-    z-index: 10
+    z-home: 10
 }
 
 .with-slick-arrows .slick-next:before,

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address & Payment</title>
+    <link rel="stylesheet" href="payment.css">
+    <style>
+        #address-content{
+            font-family: "Open Sans", sans-serif;
+            display: grid;
+            /* border: 1px solid red; */
+            width: 80vw;
+            grid-template-columns: repeat(2, 1fr);
+            /* gap: 20px; */
+            margin: auto;
+            /* text-align: center; */
+        }
+        .address-content-left{
+            text-align: center;
+            /* border: 1px solid red; */
+        }
+        .addressDesktop-base-right{
+            /* height: 100px; */
+            /* border: 1px solid red; */
+            background-color: #F9F9F9;
+            border-left: 1.5px solid #bebebe;
+        }
+        label{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div id="mountRoot">
+            <div id="appContent">
+                <div class="page ">
+                    <div>
+                        <div>
+                            <div id="address-content" class="addressDesktop-base-addressLayout">
+                                <div class="address-content-left">
+                                    <div class="addressDesktop-base-left">
+                                        <div>
+                                            <img src="https://cdn.shopify.com/s/files/1/0086/0402/4911/files/logo-new2_x320.png?v=1613695879" alt="">
+                                            <!-- <div><span>Cart > Information > Shipping  > Payment</span></div> -->
+                                        </div>
+                                        <div class="addressDesktop-base-addAddressContainer">
+                                            
+                                            <div class="addressFormUI-base-container">
+                                                <form action="">
+                                                    <label for="">CONTACT DETAILS</label><br>
+                                                    <input type="text" placeholder="Name*"><br>
+                                                    <input type="number" placeholder="Mobile No.*"><br>
+                                                    <label for=""> ADDRESS </label><br>
+                                                    <input type="text" name="pin" pattern="[0-9]{6}" maxlength="6" placeholder="Pin Code*"><br>
+                                                    <input type="text" placeholder="Address (House No, Building, Street, Area)*"><br>
+                                                    <input type="text" placeholder="City / District*">
+                                                    <input type="text" placeholder="State*"><br>
+                                                    <label for="">SAVE ADDRESS AS</label><br>
+                                                    <input type="checkbox" name="" id=""><span>Make this my default address</span><br>
+                                                    <button  id="btn" type="submit" class="button-base-button">Continue to shipping</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="addressDesktop-base-right">
+                                    <div class="priceBlockCommon-base-container ">
+                                        <div id="priceBlockHeader" class="priceBlockCommon-base-items">PRICE DETAILS</div>
+                                        <div class="priceBlockCommon-base-detailBody">
+                                            <div class="priceBreakUp-base-orderSummary" id="priceBlock">
+                                                <div class="priceDetail-base-row">
+                                                    <span>Total MRP</span>
+                                                    <span class="priceDetail-base-value ">
+                                                        <span></span>
+                                                        <svg width="8" height="10" viewBox="0 0 8 10"
+                                                            class="priceDetail-base-icon">
+                                                        </svg>
+                                                        <span id="totalmrp">
+                                                            $ 1821</span>
+                                                    </span>
+                                                </div>
+                                                <div class="priceDetail-base-row">
+                                                    <span>Discount on MRP</span>
+                                                    <span class="priceDetail-base-value priceDetail-base-discount">
+                                                        <span>-</span>
+                                                        <svg width="8" height="10" viewBox="0 0 8 10"
+                                                            class="priceDetail-base-icon">
+                                                        </svg>
+                                                        <span id="totaldisc">
+                                                            $ 21</span>
+                                                    </span>
+                                                </div>
+                                                <div class="priceDetail-base-row">
+                                                        <!-- <svg width="8" height="10" viewBox="0 0 8 10"
+                                                            class="priceDetail-base-icon">
+                                                            <path fill-rule="nonzero"
+                                                                d="M1.951 5.845l3.91 3.602-.902.376L.7 5.845l.452-.711c.186-.005.392-.02.615-.048a5.2 5.2 0 0 0 1.347-.356c.218-.09.42-.201.604-.331.185-.13.345-.281.479-.455.134-.173.231-.371.29-.594H.865v-.841h3.644a1.759 1.759 0 0 0-.284-.667 1.826 1.826 0 0 0-.567-.512 2.964 2.964 0 0 0-.865-.332A5.22 5.22 0 0 0 1.63.882H.864V0h6.2v.882H4.18c.173.077.33.174.468.29a2.09 2.09 0 0 1 .612.848c.064.162.11.325.137.489h1.668v.84H5.383a2.38 2.38 0 0 1-.43 1.03 3.095 3.095 0 0 1-.8.748 4.076 4.076 0 0 1-1.043.482 6.15 6.15 0 0 1-1.159.236z">
+                                                            </path>
+                                                        </svg> -->
+                                                        
+                                                    </span>
+                                                </div>
+                                                <div class="priceDetail-base-total">
+                                                    <span>Total Amount</span>
+                                                    <span class="priceDetail-base-value ">
+                                                        <span></span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="10"
+                                                            viewBox="0 0 8 10" class="priceDetail-base-icon">
+                                                        </svg>
+                                                        <span id="totalamt">$ 1800</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    // var addressTotalObj = JSON.parse(localStorage.getItem("addressTotalObj"));
+    // document.getElementById("totalmrp").innerText = addressTotalObj.totalmrp;
+    // document.getElementById("totaldisc").innerText = addressTotalObj.totaldisc;
+    // document.getElementById("totalamt").innerText = addressTotalObj.totalamt;
+    // document.getElementById("priceDetails").innerText = addressTotalObj.totalItem;
+    
+    document.querySelector("form").addEventListener("submit", function(){
+        event.preventDefault();
+        alert("Order Confirmed")
+        location = "../index.html"
+    })
+
+    // document.getElementById("btn").addEventListener("click", function(){
+    //     event.preventDefault()
+    //     alert("Order Confirmed")
+    //     location = "../home/home.html"
+    // })
+</script>

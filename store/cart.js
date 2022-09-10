@@ -2,7 +2,7 @@ var id = localStorage.getItem("id") || [];
 
 const goToCart = async() => {
     try {
-        const res = await fetch(`http://localhost:3000/data/${id}`);
+        const res = await fetch(`https://envoybackend.herokuapp.com/data/${id}`);
         const res2 = await res.json();
         // console.log(res2);
 
@@ -10,17 +10,17 @@ const goToCart = async() => {
             productBox.setAttribute("id", "productBox");
             
             var heading = document.createElement("p");
-            heading.innerText = "Home >"+ res2.title;
+            heading.innerText = "home >"+ res2.title;
 
             var image = document.createElement("img");
             image.setAttribute("src", res2.image_url);
             image.setAttribute("id", "img");
 
             productBox.append(heading, image);
-
+            
             var infoBox = document.createElement("div");
             infoBox.setAttribute("id", "infoBox");
-            
+
             var title = document.createElement("h1");
             title.innerText = res2.title;
 
@@ -30,8 +30,8 @@ const goToCart = async() => {
             var quantity = document.createElement("input");
             quantity.setAttribute("type", "number");
             quantity.setAttribute("id", "quantity");
-            quantity.setAttribute("min", 1)
-            quantity.setAttribute("placeholder", "1");
+            quantity.setAttribute("min", 0);
+            quantity.setAttribute("placeholder", "quantity");
             
             var add = document.createElement("button");
             add.setAttribute("id", "addBtn");
@@ -102,5 +102,4 @@ let sum = data.reduce(function(acc, res){
 },0);
 
 allItem.innerHTML = sum;
-
 

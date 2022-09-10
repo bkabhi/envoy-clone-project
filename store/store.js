@@ -1,6 +1,6 @@
 const fetchData = async() => {
     try {
-    let res = await fetch("http://localhost:3000/data");
+    let res = await fetch("https://envoybackend.herokuapp.com/data");
     let res2 = await res.json();
     console.log(res2);
 
@@ -55,7 +55,7 @@ function displayFilter(event) {
     var targetEvent = event.target.id;
     const fetchData2 = async() => {
         try {
-        let res = await fetch("http://localhost:3000/data");
+        let res = await fetch("https://envoybackend.herokuapp.com/data");
         let res2 = await res.json();
         // console.log(res2);
     

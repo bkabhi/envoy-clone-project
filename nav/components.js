@@ -1,18 +1,18 @@
 function navbar(){
     return `
     <div id="home-navbar-div1">
-    <a href="../home/home.html"><img src="https://envoy.com/images/logo-new.svg" alt="" id="home-navbar-icon"></a>
+    <a href="../index.html"><img src="https://envoy.com/images/logo-new.svg" alt="" id="home-navbar-icon"></a>
 </div>
 <div id="home-navbar-div2">
     <div id="navbar-hiring">
-        <a href="../jobs/jobs.html" class="navbar-anchor">We're hiring'! </a>
+        <a href="./jobs/jobs.html" class="navbar-anchor">We're hiring'! </a>
     </div>
     <div id="navbar-products" class="drop-hower-div">
-            <a href="../store/store.html" class="navbar-anchor">Products</a>
+            <a href="./store/store.html" class="navbar-anchor">Products</a>
             
             <div class="drop-down-div-content-parent">
                 <div class="drop-down-div-content">
-                    <a href="">
+                    <a href="../store/store.html">
                         <img height="50px" width="50px" src="https://envoy.com/images/icons/products/visitors-app.png" alt="">
                         <div class="drop-content-text">
                             <div>Visitors</div>
@@ -157,7 +157,7 @@ function navbar(){
                     <a href="">
                         <img  width="20px" src="https://envoy.com/images/icons/24px/red/data.svg" alt="">
                         <div >
-                            <div class="drop--content-text">Return to Workplace Index</div>
+                            <div class="drop--content-text">Return to Workplace home</div>
                             <div></div>
                         </div>
                     </a>
@@ -217,16 +217,16 @@ function navbar(){
                 </div>
             </div>
     </div>
-    <div id="navbar-login" class="drop-hower-div">
-        <a href="#" class="navbar-anchor">Log In</a>
-    </div>
+    
     <div id="navbar-get-started" class="drop-hower-div">
-        <a href="#" class="navbar-anchor">Get started</a>
+        <a href="./Signup/signup1.html" class="navbar-anchor">Get started</a>
     </div>
 </div>`
 }
 
-
+{/* <div id="navbar-login" class="drop-hower-div">
+        <a href="#" class="navbar-anchor">Log In</a>
+    </div> */}
 
 const footer = `
 <div id="heading">
@@ -285,7 +285,7 @@ const footer = `
                     <h3>Resources</h3>
                     <li>Hybrid work resource hub</li>
                     <li>Help center</li>
-                    <li>Return to workplace Index</li>
+                    <li>Return to workplace home</li>
                     <li>Envoy Store</li>
                     <li>Customer stories</li>
                     <li>Demo</li>

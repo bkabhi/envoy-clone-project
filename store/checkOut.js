@@ -2,7 +2,7 @@ var data = JSON.parse(localStorage.getItem("itemArr")) || [];
 let totalPrice = 0;
 const goToCheckOut = async(id, count) => {
     try {
-        const res = await fetch(`http://localhost:3000/data/${id}`);
+        const res = await fetch(`https://envoybackend.herokuapp.com/data/${id}`);
         const res2 = await res.json();
         displayItem(res2, count);
         
@@ -31,15 +31,20 @@ function displayItem(res2, count) {
 
         var td1  = document.createElement("img");
         td1.setAttribute("src", res2.image_url);
+        td1.setAttribute("id", "resImage");
 
         var td2 = document.createElement("td");
-        td2.innerText = res2.title;
+        var td2title = document.createElement("p")
+        td2title.innerText = res2.title;
+        td2.setAttribute("id", "title");
 
         var remove = document.createElement("button");
-        remove.innerHTML = "X REMOVE";
+        remove.setAttribute("id", "remove");
+        remove.innerHTML = "X Remove";
         remove.addEventListener("click", function() {
             removeItem(res2.id);
         })
+        td2.append(td2title, remove)
         var td3 = document.createElement("td");
         td3.innerText = res2.price;
 
@@ -52,16 +57,18 @@ function displayItem(res2, count) {
         td5.innerText = "$"+"" +res2.originalPrice* count;
         totalPrice = totalPrice + res2.originalPrice* count;
 
-        row.append(td1, td2, remove, td3, td4, td5);
+        row.append(td1, td2, td3, td4, td5);
         tbody.append(row);
 
-        let total = document.getElementById("totalPrice");
+        let total = document.getElementById("total");
         total.innerHTML = "$"+"" + totalPrice;
 
 
+        document.getElementById("checkOut").addEventListener("click", function() {
+            location.href = "payment.html";
 
+        })
 
 }
 
     
-

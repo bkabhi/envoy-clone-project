@@ -5,9 +5,9 @@
     <link rel="icon" type="image/x-icon" href="https://dashboard.envoy.com/assets/images/logo-small-red-29747f5d18c38b072069367be9afc3ba.svg">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="../nav/navbar.css">
-    <link rel="stylesheet" href="./home.css">
+    <title>home Page</title>
+    <link rel="stylesheet" href="./nav/navbar.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <nav id="home-navbar"></nav>
@@ -290,7 +290,7 @@
 </html>
 
 <script type="module">
-    import {navbar, footer} from "../nav/components.js"
+    import {navbar, footer} from "./nav/components.js"
     var nav = document.getElementById("home-navbar");
     nav.innerHTML = navbar();
     document.getElementById("footer-all-pages").innerHTML = footer

@@ -38,8 +38,9 @@
         <div id = "cartProducts">
             <table id = "table">
                 <thead>
-                    <tr>
+                    <tr id = "tableHeader">
                       <th>Product</th>
+                      <th></th>
                       <th>Price</th>
                       <th>Quantity</th>
                       <th>Total</th>
@@ -49,12 +50,13 @@
                      <!-- Update the rows here using jsvascript -->
                     </tbody>
                 </table>
-            <div>
-                <p>TOTAL PRICE</p>
-                <p id = "totalPrice"></p>
+            <div id = "totalPrice">
+                <p id = "Sub">Subtotal</p>
+                <p id = "total"></p>
             </div>
+            <button id = "checkOut">CHECKOUT</button>
 
-        </div>
+    </div>
         
 </body>
 </html>

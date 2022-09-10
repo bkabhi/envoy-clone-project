@@ -1,0 +1,650 @@
+@charset "UTF-8";
+
+button {
+    text-transform: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+.btn-reset {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    text-align: inherit;
+    background: 0 0
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    border-width: 0;
+}
+
+b {
+    font-weight: bolder
+}
+
+small {
+    font-size: 80%
+}
+
+button {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: 1.25
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0
+}
+
+button {
+    background-color: transparent;
+    background-image: none
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+html {
+    font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
+    line-height: 1.5
+}
+
+body {
+    margin: 0;
+    font-family: inherit;
+    line-height: normal;
+    --tw-text-opacity: 1;
+    color: rgba(63, 68, 80, var(--tw-text-opacity))
+}
+
+button {
+    cursor: pointer
+}
+
+:-moz-focusring {
+    outline: auto
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 600
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    --tw-text-opacity: 1;
+    color: rgba(97, 97, 255, var(--tw-text-opacity))
+}
+
+button {
+    padding: 0;
+    line-height: inherit;
+    color: inherit
+}
+
+img,
+svg {
+    display: block;
+    vertical-align: middle
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+[hidden] {
+    display: none
+}
+
+h1 {
+    font-size: 2rem
+}
+
+h2 {
+    font-size: 1.5rem
+}
+
+h3 {
+    font-size: 1.25rem
+}
+
+h4 {
+    font-size: 1rem
+}
+
+h5 {
+    font-size: .875rem
+}
+
+img,
+svg {
+    display: inline;
+    vertical-align: baseline
+}
+
+ul {
+    line-height: 1.5
+}
+
+.dropdown-menu {
+    background: #fff;
+    border: 1px solid #c9cbd4;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, .3);
+    position: absolute;
+    transition: all .15s ease;
+    transform: translate3d(0, -6px, 0);
+    opacity: 1;
+    z-home: 10
+}
+
+.dropdown-menu::after,
+.dropdown-menu::before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 14px;
+    border: 10px solid transparent;
+    pointer-events: none
+}
+
+.dropdown-menu::before {
+    top: -20px;
+    z-home: 10;
+    border-bottom: 10px solid #fff
+}
+
+.dropdown-menu::after {
+    top: -21px;
+    z-home: 0;
+    border-bottom: 10px solid #c9cbd4
+}
+
+.z-10 {
+    z-home: 10
+}
+
+
+
+
+
+.my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+
+
+
+
+
+
+.mb-4 {
+    margin-bottom: 1rem
+}
+
+
+
+
+
+.mr-\[5px\] {
+    margin-right: 5px
+}
+
+
+
+
+
+.block {
+    display: block
+}
+
+.inline-block {
+    display: inline-block
+}
+
+.inline {
+    display: inline
+}
+
+.flex {
+    display: flex
+}
+
+.inline-flex {
+    display: inline-flex
+}
+
+.h-6 {
+    height: 1.5rem
+}
+
+.h-12 {
+    height: 3rem
+}
+
+
+
+
+.flex-auto {
+    flex: 1 1 auto
+}
+
+.flex-1 {
+    flex: 1 1 0%
+}
+
+.flex-grow {
+    flex-grow: 1
+}
+
+.flex-grow-0 {
+    flex-grow: 0
+}
+
+.flex-col {
+    flex-direction: column
+}
+
+
+
+
+.bg-carbon-5 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(246, 246, 249, var(--tw-bg-opacity))
+}
+
+.bg-carbon-10 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(235, 235, 240, var(--tw-bg-opacity))
+}
+
+.bg-red-40 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(250, 67, 56, var(--tw-bg-opacity))
+}
+
+
+
+.py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem
+}
+
+.py-2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem
+}
+
+
+
+
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+.py-1 {
+    padding-top: .25rem
+}
+
+.px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem
+}
+
+
+
+.font-bold {
+    font-weight: 600
+}
+
+.text-carbon-50 {
+    --tw-text-opacity: 1;
+    color: rgba(113, 118, 132, var(--tw-text-opacity))
+}
+
+
+.icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block
+}
+
+
+.icon-mainNav-dashboard::before,
+.icon-mainNav-delivery::before,
+.icon-mainNav-desks::before,
+.icon-mainNav-devices::before,
+.icon-mainNav-employees::before,
+.icon-mainNav-integrations::before,
+.icon-mainNav-rooms::before,
+.icon-mainNav-schedule::before {
+    content: " ";
+    position: relative;
+    display: inline;
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 16px 16px;
+    top: -1px
+}
+
+.icon-mainNav-desks::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-slate/desks-5a312b1fa502eb1d64508fb34e340ae8.svg)
+}
+
+.icon-mainNav-desks:hover::before,
+.icon-mainNav-desks[aria-current=page]::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-red/desks-280c8a3e1bc1d384074528d2b6bdd6eb.svg)
+}
+
+.icon-mainNav-delivery::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-slate/deliveries-74ec1bbc2ed980956ff5beae50242c70.svg);
+    top: 1px
+}
+
+.icon-mainNav-delivery:hover::before,
+.icon-mainNav-delivery[aria-current=page]::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-red/deliveries-2ff7e137a96c61c4b320770302fb76e7.svg)
+}
+
+.icon-mainNav-dashboard::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-slate/dashboard-8cf9aef164c948e40e37c6b0ca9401a1.svg)
+}
+
+.icon-mainNav-dashboard:hover::before,
+.icon-mainNav-dashboard[aria-current=page]::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-red/dashboard-8d69a32b7faf0ec3275c5d900df282f5.svg)
+}
+
+.icon-mainNav-employees::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-slate/employees-52741a0d1c445e7db19b6abf09b94b0d.svg)
+}
+
+.icon-mainNav-employees:hover::before,
+.icon-mainNav-employees[aria-current=page]::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-red/employees-550e43060f0ffcbbef291e76c0c298f9.svg)
+}
+
+.icon-mainNav-devices::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-slate/devices-29c455b6e4033b409107569e98e66574.svg)
+}
+
+.icon-mainNav-devices:hover::before,
+.icon-mainNav-devices[aria-current=page]::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-red/devices-60ca80d0ef05693d946153629535e954.svg)
+}
+
+.icon-mainNav-integrations::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-slate/integrations-7cd7b5e793c308fc45037fa5d16c5ba9.svg)
+}
+
+.icon-mainNav-integrations:hover::before,
+.icon-mainNav-integrations[aria-current=page]::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-red/integrations-fe1c83f77c43f02271c19d7dffdb2719.svg)
+}
+
+.icon-mainNav-rooms::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-slate/rooms-036141efe2016d2cdbd1c24c21e8f5e6.svg)
+}
+
+.icon-mainNav-rooms:hover::before,
+.icon-mainNav-rooms[aria-current=page]::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-red/rooms-b8df97a47c58baeb7a00dc9f28b42f76.svg)
+}
+
+.icon-mainNav-schedule::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-slate/schedule-01cd5e690c35d5b903d4e2171d6f9e93.svg)
+}
+
+.icon-mainNav-schedule:hover::before,
+.icon-mainNav-schedule[aria-current=page]::before {
+    background-image: url(https://dashboard.envoy.com/assets/images/sidebar/mainNav-red/schedule-09ee8fbe9b2879b416d0483a7188b1c1.svg)
+}
+
+.icon-employee-desk {
+    background-image: url(https://dashboard.envoy.com/assets/images/desks/desk-pin-9ba29199a47973c62cd89098b23c10bb.svg);
+    border-radius: 0;
+    box-shadow: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 46px;
+    height: 46px
+}
+
+
+.btn--dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none
+}
+
+button {
+    margin: 0
+}
+
+button {
+    cursor: pointer
+}
+
+button:disabled,
+button[disabled=disabled] {
+    opacity: .5;
+    cursor: default;
+    pointer-events: none
+}
+
+.button {
+    margin-top: 30px
+}
+
+body,
+html {
+    min-height: 100vh
+}
+
+
+.menu-trigger,
+nav a {
+    color: #3f4450;
+    transition: color .2s;
+    cursor: pointer
+}
+
+.menu-trigger:hover,
+nav a:hover {
+    outline: 0;
+    color: #e91c1c;
+    text-decoration: none
+}
+
+.menu-trigger:focus,
+nav a:focus {
+    text-decoration: none;
+    outline: #e91c1c solid 1px;
+    outline: auto;
+    outline-color: #e91c1c
+}
+
+.menu-trigger,
+.menu-trigger path {
+    transition: all .2s
+}
+
+
+.menu-trigger:hover,
+[role=button]:focus .menu-trigger {
+    color: #e91c1c;
+    cursor: pointer
+}
+
+.menu-trigger:hover path,
+[role=button]:focus .menu-trigger path {
+    fill: #e91c1c
+}
+
+#HW_badge_cont {
+    font-size: 0 !important;
+    width: 16px !important;
+    height: 16px !important;
+    opacity: 0 !important;
+    transition: all .2s !important;
+    background: url(https://dashboard.envoy.com/assets/images/bell-new-a57b77c5ff4deff0f91c06e779a57329.svg) center/16px no-repeat;
+    display: none !important
+}
+
+#HW_badge_cont.HW_visible {
+    cursor: pointer;
+    opacity: 1 !important;
+    display: block !important
+}
+
+#HW_badge_cont.HW_visible:hover {
+    opacity: .6 !important
+}
+
+#HW_badge {
+    position: absolute !important;
+    left: 7px !important;
+    top: -8px !important;
+    background: #ef3934 !important;
+    color: #fff !important;
+    font-size: 10px !important;
+    line-height: 16px !important;
+    height: 16px !important;
+    width: 16px !important
+}
+
+
+.user-menu.with-changelog {
+    position: relative
+}
+
+.user-menu.with-changelog .ember-basic-dropdown-trigger {
+    width: 174px;
+    float: left
+}
+
+.user-menu.with-changelog .ember-basic-dropdown-trigger:focus {
+    outline: #e91c1c solid 1px;
+    outline: auto;
+    outline-color: #e91c1c
+}
+
+.user-menu.with-changelog .updates-trigger {
+    position: absolute;
+    right: 4px;
+    top: 3px
+}
+
+.user-menu.with-changelog .updates-trigger:focus {
+    outline: #e91c1c solid 1px;
+    outline: auto;
+    outline-color: #e91c1c
+}
+
+
+.btn {
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    font-variant-numeric: lining-nums;
+    padding: 13px 16px 11px;
+    background-color: #3f4450;
+    color: #fff;
+    text-decoration: none !important;
+    border: none;
+    text-align: center;
+    transition: all .2s;
+    cursor: pointer;
+    overflow: unset;
+    line-height: 1;
+    white-space: nowrap
+}
+
+.btn:hover {
+    background-color: rgba(63, 68, 80, .9);
+    color: #fff
+}
+
+.btn:active {
+    background-color: #3f4450;
+    color: #fff
+}
+
+.btn:focus {
+    cursor: pointer;
+    outline: 0;
+    color: #fff
+}
+
+.btn--small,
+.btn--small.flex-auto {
+    padding: 8px 16px 7px
+}
+
+.btn--small {
+    font-size: 14px;
+    line-height: 1.5
+}
+
+
+.btn--icon {
+    display: flex;
+    align-items: center
+}
+
+
+
+
+
+
+
+
+
+
+/* table  */
