@@ -3,7 +3,7 @@ https://euphonious-kataifi-dd154e.netlify.app/index.html
 
 
 
-![Screenshot (19).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662835269189/Vyx6LKa5E.png align="left")
+![alt text](https://cdn.hashnode.com/res/hashnode/image/upload/v1662835269189/Vyx6LKa5E.png)
 
 
 Currently, I am learning Full Stack Web Development at Masai. In the 5th unit, we learned about HTML, CSS, and javascript. In the last week of unit everyone has to do a project. 
