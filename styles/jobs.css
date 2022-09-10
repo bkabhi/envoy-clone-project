@@ -531,7 +531,7 @@
     #get-to-know {
         padding-bottom: 0;
         position: relative;
-        z-home: 5;
+        z-index: 5;
         margin-bottom: -48px
     }
 

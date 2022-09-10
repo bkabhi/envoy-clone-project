@@ -1,11 +1,11 @@
 function navbar(){
     return `
     <div id="home-navbar-div1">
-    <a href="../index.html"><img src="https://envoy.com/images/logo-new.svg" alt="" id="home-navbar-icon"></a>
+    <a href="./index.html"><img src="https://envoy.com/images/logo-new.svg" alt="" id="home-navbar-icon"></a>
 </div>
 <div id="home-navbar-div2">
     <div id="navbar-hiring">
-        <a href="./jobs/jobs.html" class="navbar-anchor">We're hiring'! </a>
+        <a href="./jobs.html" class="navbar-anchor">We're hiring'! </a>
     </div>
     <div id="navbar-products" class="drop-hower-div">
             <a href="./store/store.html" class="navbar-anchor">Products</a>

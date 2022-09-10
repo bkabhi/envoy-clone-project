@@ -83,7 +83,7 @@
 #home-page-section-second {
     background-color: #b5e0ec;
     height: 420px;
-    background-image: url("/envoy-clone-project/banner-image-xl.png");
+    background-image: url("../img/banner-image-xl.png");
     /* margin-left: 0; */
     background-size: cover;
     background-position-x: calc( 50vw - 442px );

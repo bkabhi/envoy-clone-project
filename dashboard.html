@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="dashboard.css" />
+    <link rel="stylesheet" href="./styles/dashboard.css" />
     <style>
         #clickedmain-desk {
             /* display: none; */
@@ -218,7 +218,7 @@
                         </li>
 
                         <li>
-                            <a class="block mb-4 text-carbon-50" href="../store/store.html">
+                            <a class="block mb-4 text-carbon-50" href="./store/store.html">
                                 Buy devices &amp; badges
                             </a>
                         </li>
@@ -297,7 +297,8 @@
 </html>
 
 <script>
-    document.querySelector("form").addEventListener("submit", myTodo);
+    
+document.querySelector("form").addEventListener("submit", myTodo);
 var todoArray = JSON.parse(localStorage.getItem("todoList")) || [];
 // console.log(todoArray);
 displayTodo(todoArray);
@@ -371,3 +372,4 @@ function displayTodo(todoArray) {
 }
 
 </script>
+
