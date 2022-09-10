@@ -37,30 +37,127 @@
     text-indent: -9999px;
     opacity: .6;
    }
-   button{
+   #envoy-login-log_btn{
     background-color: red;
     color: white;
     font-weight: bold;
     border: none;
-    border-radius: 0.5vh;
+    /* border-radius: 0.5vh; */
+    font-size:18px;
+    padding: 8px 10px;
+    width:85%;
+    border-radius: 6px;
+  }
+   #envoy-login-container{
+    width: 33vw;
+    margin: auto;
+    height: 500px;
+    padding-bottom: 150px;
+    /* text-align: center; */
+   }
+   #envoy-login-body{
+    background-color: rgb(247, 245, 245);
+    height: 100%;
+   }
+   #envoy-login-form{
+    background-color: white;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    padding: 20px ;
+    border-radius: 8px;
+   }
+   #logodiv{
+    display: flex;
+    justify-self: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 150px;
+   }
+
+   #envoy-login-form-h3{
+    font-family: sans-serif;
+    text-align: center;
+   }
+   #envoy-login-form-c-email{
+    width: 85%;
+      font-size: 18px;
+      padding: 10px;
+      margin-bottom: 4vh;
+      border-radius: 0.5px;
+      border-style: none;
+      margin-left: 10px;
+      border-radius: 6px;
+      box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+        rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+   }
+
+   #envoy-login-form  #envoy-login-label{
+    font-family: sans-serif;
+    text-align: left;
+    color: grey;
+    margin-left: -185px;
+    font-size: 18px;
+   }
+
+   /* #envoy-login-log_btn{
+    text-align:center;
+   }
+
+   #envoy-login-forgot-passwor{
+    text-align:center;
+   } */
+
+   #envoy-login-btn-lock{
+    width:13px;
+    
+   }
+   #envoy-login-forgot-password{
+    text-decoration: none;
+    color: grey;
+    font-family: sans-serif;
    }
 </style>
 <body>
+  <div id="envoy-login-body">
+  <div id="envoy-login-container">
     <div id="logodiv">
         <img
           src="https://signup.envoy.com/assets/images/logo-new.svg"
-          alt="logo"
+           id="login-image" alt="logo"
         />
       </div>
+      <div id="envoy-login-form">
 
       <form>
-        <div id="login-container">
-            <h3>Log in to the Envoy dashboard</h3><br>
-            <label for="">Company email address</label><br />
-          <input type="text" placeholder="email address" /><br /><br>
-          <button onclick="click"><span class="lock"></span> Next</button><br>
-          <a href="https://web.envoy.com/users/password/new"><p>Forgot your password?</p></a>
-        </div>
+        <!-- <div id="login-container"> -->
+            <h3 id="envoy-login-form-h3">Log in to the Envoy dashboard</h3><br>
+            <label for="" id="envoy-login-label">Company email address</label><br />
+          <input type="text" placeholder="email address" id="envoy-login-form-c-email" /><br /><br>
+          <button onclick="click" id="envoy-login-log_btn"><svg id="envoy-login-btn-lock" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+            Next</button><br>
+          <a href="https://web.envoy.com/users/password/new" id="envoy-login-forgot-password"><p>Forgot your password?</p></a>
+        <!-- </div> -->
       </form>
+    </div>
+    </div>
+  </div>
 </body>
 </html>
+<script>
+  document.getElementById("login_btn").addEventListener("click", click);
+  var arr = JSON.parse(localStorage.getItem("login")) || [];
+  function click(){
+  event.preventDefault();
+  var email = document.getElementById("email").value;
+  
+  var Obj = {
+    email:email,
+  };
+
+
+  arr.push(Obj);
+  localStorage.setItem("login", JSON.stringify(arr));
+  alert("login succesfull");
+
+</script>
