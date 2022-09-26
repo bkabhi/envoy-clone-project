@@ -92,22 +92,23 @@ Every team member gave his best in order to make the project as good as it could
 The project repository is available on GitHub.
 
 ### Team Members and Their contribution
-1. Hardeep Siwach  
-GitHub : https://github.com/Hardeep317  
-LinkedIn : https://www.linkedin.com/in/hardeep41016/  
-Contribution : Created header Navbar and Landing page of Envoy.
 
 2. Abhijeet Sagar   
 GitHub : https://github.com/bkabhi  
 LinkedIn : https://www.linkedin.com/in/bkabhi/  
 Contribution : Created Dashboard, Hiring Page and Payment Page of Envoy.
 
+1. Hardeep Siwach  
+GitHub : https://github.com/Hardeep317  
+LinkedIn : https://www.linkedin.com/in/hardeep41016/  
+Contribution : Created header Navbar and Landing page of Envoy.
+
 3. Shivani Chauhan   
 GitHub : https://github.com/chauhanshivani77   
 LinkedIn : https://www.linkedin.com/in/shivani-chauhan-67b482239    
 Contribution : Created Log In and SignUp and Footer of Envoy.
 
-4. Shruti Joshi    
+4. Shruti Joshi
 GitHub : https://github.com/shruti166   
 LinkedIn : https://www.linkedin.com/in/shruti-joshi-55b67119a/      
 Contribution : Created Product Page and Check Out Page Envoy.
